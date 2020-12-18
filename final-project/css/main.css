@@ -123,7 +123,7 @@ html{
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0 1em;
    
      
 }
@@ -188,11 +188,14 @@ html{
     width: 100%;
     background: url("../images/main-banner.jpg") no-repeat center bottom;
     background-size: cover;
+    padding-top:100px;
+    padding-bottom:100px;
+
   }
 
   .media-container h1 {
     margin: 0 10px;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     text-align: left;
     color: white;
     font-size: 3.375rem;
@@ -215,6 +218,11 @@ html{
   display: inline-block;
   font-size: 1rem;                                                                                                                                                                
 }
+.media-container .container{
+  background-color: rgba(0, 0, 0, .5);
+  padding-top:2em;
+  padding-bottom:2em;
+}
 
 /* about us */
  /* -------------------------------
@@ -228,9 +236,10 @@ html{
   margin: 0 1em;
 }
 .container .aboutimg {
-  width:100%;
+  width:93%;
   height:auto;
   padding:1em;
+  align-items: center;
 }
 /* need to fix image */
 .about-us h1 {
@@ -488,8 +497,7 @@ html{
     /* padding-bottom: 10px; */
 }
 .visionbtn{
-  background-color: black;
-  opacity: 0.6;
+  background-color: rgba(0, 0, 0, .5);
   color: white;
   margin: 1em 16px;
   padding: 2em 2em;
@@ -499,8 +507,6 @@ html{
   font-size: 1rem; 
   border: 1px #c78c06 solid; 
 }
-
-/* fix opacity */
 
 /* our team-----------------------------------------------
 -=========-=----------------------------------------------- */
@@ -696,3 +702,72 @@ td, th{
   padding-top:1em;
   padding-bottom:1em;
 }
+
+/* desktop styling-------------------------------------------------------
+---------------------------------------------------------------------------
+------------------------------------------------------------------------ */
+@media screen and (min-width:760px) {
+  html {
+    font-size: 16px;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .nav-list li {
+    width: 100px;
+    border: none;
+    align-content: space-around;
+    margin: 2em;
+    
+  }
+  .mobile-logo {
+    float:left;
+  }
+ 
+
+
+  /* about us-------------------------------------- */
+  .about-us .container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+  }
+
+  /* our services-----------------------------------------
+  ---------------------------------------------------------
+   */
+   .our-services .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat (3, auto);
+    grid-template-areas:
+    "head head head"
+    "digital marketing"
+    "video webdev print";
+    gap: 1em;
+   }
+ 
+
+
+
+  /* class= digital marketing video webdev print */
+
+  
+    /* our teamm-------------------------------------------
+    ------------------------------------------------------ */
+  .our-team .head{
+    display:flex;
+  }
+    .our-team .container{
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+   }
+      
+    /* johnimg john-txt bobimg bob-text */
+
+
+    /* contact us-----------------------------------
+    --------------------------------------------- */
