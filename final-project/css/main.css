@@ -160,15 +160,25 @@ html{
 }
 /* stling button, still need search bar */
 .im-magnifier{
-  color: #c78c06;
-  border:1px solid #c78c06;
-  background-color: black;
+    background-color: black; 
+    border: 1px solid #c78c06;
+    color: #c78c06;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    align-self: auto;
+  }
 
- }
+
   input[type=text] {
     background-color: white;
     width: 90%;
     height: 2em;
+  }
+  .search{
+    align-items:left;
   }
   /* three star media */
   /* -------------------------------
@@ -685,5 +695,4 @@ td, th{
   color: #c78c06;
   padding-top:1em;
   padding-bottom:1em;
-
 }
