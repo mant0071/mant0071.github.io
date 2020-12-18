@@ -131,6 +131,9 @@ html{
 .mobile-logo{
   max-width: 100%;
 }
+.headimg{
+  background-color: #c78c06;
+}
 .site-header{
   background-color: #222;
   padding: 1em;
@@ -138,7 +141,9 @@ html{
 .nav-list li {
   text-align: center;
   text-decoration-color: #c78c06;
-  
+}
+.nav-list a {
+  color: #c78c06;
 }
 .nav-list a,
 .nav-list a:link,
@@ -156,8 +161,7 @@ html{
 /* stling button, still need search bar */
 .im-magnifier{
   color: #c78c06;
- 
-  }
+ }
   input[type=text] {
     background-color: white;
     width: 85%;
@@ -200,11 +204,7 @@ html{
 /* about us */
  /* -------------------------------
   ------------------------------- */
-.aboutimg{
-    width: 100%;
-    height:auto;
-    margin:1em;
-}
+
 /* need to fix image */
 
 .about-us .container{
@@ -212,7 +212,11 @@ html{
   background-color: #ffe6ac;
   margin: 0 1em;
 }
-
+.aboutimg {
+  width:100%;
+  height:auto;
+  padding:1em;
+}
 /* need to fix image */
 .about-us h1 {
   margin: 0 10px;
@@ -485,3 +489,84 @@ html{
 
 /* our team-----------------------------------------------
 -=========-=----------------------------------------------- */
+.our-team{
+  max-width: 1200px;
+  margin: 0 1em;
+  background-color: white;
+}
+.head {
+  margin: 0 ;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+  font-size: 3.375rem;
+}
+.john-txt h2{
+  margin: 0 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+  font-size: 2.25rem;
+}  
+.john-txt h4{
+  margin: 0 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  /* text-decoration: underline; */
+  /* need underline-------------------------- */
+}  
+.john-txt p{
+  margin: 1em;
+}
+.johnimg{
+  width:100%;
+  height:auto;
+  /* padding-top: 10px; */
+  background-color: #ffe6ac;
+}
+.jwrap{
+  background-color: #ffe6ac;
+  padding-bottom: 10px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+/* BOB-----------------------------------------------
+-=========-=----------------------------------------------- */
+.bob-text h2{
+  margin: 0 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+  font-size: 2.25rem;
+}  
+.bob-text h4{
+  margin: 0 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  /* text-decoration: underline; */
+  /* need underline-------------------------- */
+}  
+.bob-text p{
+  margin: 1em;
+}
+.bobimg{
+  width:100%;
+  height:auto;
+  /* padding-top: 10px; */
+  background-color: #ffe6ac;
+}
+.bwrap{
+  background-color: #ffe6ac;
+  padding-bottom: 10px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
