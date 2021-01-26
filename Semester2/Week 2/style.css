@@ -46,3 +46,164 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* -------------------------------MOBILE STYLES FIRST----------------------------------- */
+/* styling header/nav box */
+body #nav {
+    width: auto;
+    margin: none;
+    background-color: lightgray;
+    background-size: auto;
+    border: none;
+  }
+
+/* styling header links */
+.nav .nav-link {
+    font-family: Larsseit, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* padding: 100px; */
+    /* margin: 25px; ------use later for desktop*/
+}
+
+/* hover styling */
+.nav a:hover {
+    color: #f1bc58;
+}
+
+/* main styling for body*/
+body{
+    width: auto;
+    margin: none;
+    background-color: #f3f3f1;
+}
+/* Styling body, "hello" section */
+main #home {
+    background-color :#f3f3f1;
+    margin: auto;
+    width: inhereit;
+    text-align: center;
+    
+}
+/* styling h1 text */
+main .home .page-title{
+    font-family: Larsseit, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 7.451rem;
+    padding-bottom: 50px;
+}
+/* first section paragraph font styling */
+#main p{
+    font-family: Larsseit, Helvetica, sans-serif; 
+    color:#f4a474;
+    font-size:1.563rem ;
+}
+
+/* About me box styling */
+main #about{
+    background-color:lightgray;
+    margin: auto;
+    width: inhereit;
+	text-align: center;
+}
+/* h2 "about me" styling */
+main .about .section-title{
+    font-family: Larsseit, Helvetica, sans-serif; 
+    color:#f4a474;
+    padding-bottom: 50px;
+    font-size: 3.815rem ;
+}
+/* about me font styling */
+
+#about p{
+    color:black;
+    margin:15px;
+    text-align: right;
+    font-size: 1.563rem;
+}
+
+/* contact me box styling */
+main #contact{
+    background-color :#f3f3f1;
+    margin: auto;
+    width: inhereit;
+	text-align: center;
+}
+/* contact me h2 styling */
+main .contact .section-title{
+    font-family: Larsseit, Helvetica, sans-serif; 
+    color:black;
+    padding-bottom: 50px;
+    font-size: 3.815rem 
+}
+/* contact me paragraph styling */
+#contact p{
+    color:#f4a474;
+    margin: 0 100px;
+    text-align: center;
+    font-size: 1.563rem;
+    padding-bottom: 50px;
+}
+/* contact me image styling */
+.about-image {
+    float: left;
+    width: 300px;
+    padding-bottom: 25px;
+  }
+
+
+
+/* form styling */
+/* styling form inputs for text */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  /* separate stying for email input */
+  input[type=email], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  /* re-sizing and changing text on labels */
+  .contact-form label {
+    padding: 12px;
+    display: inline-block;
+    font-family: Larsseit, Helvetica, sans-serif; 
+    
+  }
+  /* changing size and colour of actual contact form */
+  .contact .contact-form{
+    border-radius: 5px;
+    background-color: #f1bc58;
+    padding: 20px;
+    width:auto;
+  }
+  /* centering text in button and centering button itself */
+ button{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    margin-top: 12px;
+    font-family: Larsseit, Helvetica, sans-serif; 
+ }
+
+ /* styling footer */
+ footer {
+    font-family: Larsseit, Helvetica, sans-serif; 
+    padding-bottom: 10px;
+ }
