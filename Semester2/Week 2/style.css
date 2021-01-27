@@ -3,49 +3,137 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 /* -------------------------------MOBILE STYLES FIRST 375px----------------------------------- 
 --------------------------------------------------------------------------------------------*/
 
@@ -57,7 +145,7 @@ body #nav {
     background-size: auto;
     border: none;
     box-sizing: border-box;
-   }
+}
 
 /* styling header links */
 #nav .nav-link {
@@ -67,7 +155,7 @@ body #nav {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-   
+
     /* margin: 50px; ------use later for desktop*/
 }
 
@@ -77,24 +165,26 @@ body #nav {
 }
 
 /* main styling for body*/
-body{
+body {
     width: auto;
     margin: none;
     background-color: #f3f3f1;
     box-sizing: border-box;
 }
+
 /* Styling body, "hello" section */
 #main #home {
-    background-color :#f3f3f1;
+    background-color: #f3f3f1;
     margin: auto;
     width: auto;
     text-align: center;
     box-sizing: border-box;
     padding: 50px;
-    
+
 }
+
 /* styling h1 text */
-main .home .page-title{
+main .home .page-title {
     font-family: Larsseit, Helvetica, sans-serif;
     color: black;
     text-align: center;
@@ -103,110 +193,125 @@ main .home .page-title{
     box-sizing: border-box;
     padding-bottom: 25px;
 }
+
 /* first section paragraph font styling */
-#main p{
-    font-family: Larsseit, Helvetica, sans-serif; 
-    color:#f4a474;
-    font-size:1.25rem ;
+#main p {
+    font-family: Larsseit, Helvetica, sans-serif;
+    color: #f4a474;
+    font-size: 1.25rem;
 }
 
 /* About me box styling */
-#main #about{
-    background-color:lightgray;
+#main #about {
+    background-color: lightgray;
     margin: auto;
     width: inhereit;
     text-align: center;
     box-sizing: border-box;
     padding: 50px;
 }
+
 /* h2 "about me" styling */
-main .about .section-title{
-    font-family: Larsseit, Helvetica, sans-serif; 
-    color:#f4a474;
+main .about .section-title {
+    font-family: Larsseit, Helvetica, sans-serif;
+    color: #f4a474;
     padding-bottom: 50px;
-    font-size: 2.441rem ;
+    font-size: 2.441rem;
 }
+
 /* about me IMG styling  */
 #about .about-image {
     float: left;
     width: 100px;
-  }
+}
+
 /* about me font styling */
-#about p{
-    color:black;
-    margin:15px;
+#about p {
+    color: black;
+    margin: 15px;
     text-align: center;
     font-size: 1.25rem;
 }
 
 /* contact me box styling */
-main #contact{
-    background-color :#f3f3f1;
+main #contact {
+    background-color: #f3f3f1;
     margin: auto;
     width: inhereit;
     text-align: center;
     box-sizing: border-box;
     padding: 50px;
 }
+
 /* contact me h2 styling */
-main .contact .section-title{
-    font-family: Larsseit, Helvetica, sans-serif; 
-    color:black;
+main .contact .section-title {
+    font-family: Larsseit, Helvetica, sans-serif;
+    color: black;
     padding-bottom: 50px;
     font-size: 2.441rem;
 }
+
 /* contact me paragraph styling */
-#contact p{
-    color:#f4a474;
+#contact p {
+    color: #f4a474;
     text-align: center;
     font-size: 1.25rem;
     padding-bottom: 50px;
 }
+
 /* contact me image styling */
 .about-image {
     float: left;
     width: 300px;
     padding-bottom: 25px;
-  }
+}
 
 
 
 /* form styling */
 /* styling form inputs for text */
-input[type=text], select, textarea{
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
-  /* separate styling for email input */
-  input[type=email], select, textarea{
+}
+
+/* separate styling for email input */
+input[type=email],
+select,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
-  /* re-sizing and changing text on labels */
-  .contact-form label {
+}
+
+/* re-sizing and changing text on labels */
+.contact-form label {
     padding: 12px;
     display: inline-block;
-    font-family: Larsseit, Helvetica, sans-serif; 
-    
-  }
-  /* changing size and colour of actual contact form */
-  .contact .contact-form{
+    font-family: Larsseit, Helvetica, sans-serif;
+
+}
+
+/* changing size and colour of actual contact form */
+.contact .contact-form {
     border-radius: 5px;
     background-color: #f1bc58;
     padding: 20px;
-    width:auto;
+    width: auto;
     box-sizing: border-box;
-  }
-  /* centering text in button and centering button itself */
- button{
+}
+
+/* centering text in button and centering button itself */
+button {
     background-color: black;
     color: white;
     padding: 12px;
@@ -215,99 +320,124 @@ input[type=text], select, textarea{
     cursor: pointer;
     float: center;
     margin-top: 12px;
-    font-family: Larsseit, Helvetica, sans-serif; 
- }
+    font-family: Larsseit, Helvetica, sans-serif;
+}
 
- /* styling footer */
- footer {
-    font-family: Larsseit, Helvetica, sans-serif; 
+/* styling footer */
+footer {
+    font-family: Larsseit, Helvetica, sans-serif;
     padding: 10px;
     box-sizing: border-box;
- }
+}
 
 /* -------------------------------TABLET STYLES 768px----------------------------------- 
 --------------------------------------------------------------------------------------------*/
 /* increaing font and spacing in nav bar */
 @media screen and (min-width:768px) {
     #nav .nav-link {
-        padding-right:50px;
-        padding-left:50px;
+        padding-right: 50px;
+        padding-left: 50px;
         font-size: 1.5rem;
     }
+
     /* increasing h2 font size */
-    main .home .page-title{
+    main .home .page-title {
         font-size: 5.96rem;
     }
-     /* increasing p font size */
-    #main p{
-        font-size:1.563rem ;
+
+    /* increasing p font size */
+    #main p {
+        font-size: 1.563rem;
     }
 
-/* h2 "about me" styling font size */
-main .about .section-title{
-    font-size: 3.052rem ;
+    /* h2 "about me" styling font size */
+    main .about .section-title {
+        font-size: 3.052rem;
+    }
+
+    /* about me IMG size increase  */
+    #about .about-image {
+        float: left;
+        width: 200px;
+    }
+
+    /* about me font increase/align change */
+    #about p {
+        color: black;
+        margin: 15px;
+        text-align: right;
+        font-size: 1.563rem;
+    }
+
+    /* contact me h2 styling font increase */
+    main .contact .section-title {
+        font-size: 3.052rem;
+    }
+
+    /* contact me paragraph styling font increase */
+    #contact p {
+        font-size: 1.563rem;
+    }
 }
-/* about me IMG size increase  */
-#about .about-image {
-    float: left;
-    width: 200px;
-  }
-/* about me font increase/align change */
-#about p{
-    color:black;
-    margin:15px;
-    text-align: right;
-    font-size: 1.563rem ;
+
+/* limiting form size */
+.contact .contact-form {
+    max-width: 600px;
 }
-/* contact me h2 styling font increase */
-main .contact .section-title{
-    font-size: 3.052rem;
-}
-/* contact me paragraph styling font increase */
-#contact p{
-    font-size: 1.563rem;
-}
-  }
+
 
 /* -------------------------------DESKTOPSTYLES 1280px----------------------------------- 
 --------------------------------------------------------------------------------------------*/
 @media screen and (min-width:1280px) {
     #nav .nav-link {
-        padding-right:50px;
-        padding-left:50px;
-        font-size: 1.5rem;
-    }
-    /* increasing h2 font size */
-    main .home .page-title{
-        font-size: 5.96rem;
-    }
-     /* increasing p font size */
-    #main p{
-        font-size:1.563rem ;
+        padding-right: 100px;
+        padding-left: 100px;
+        font-size: 1.953rem;
     }
 
-/* h2 "about me" styling font size */
-main .about .section-title{
-    font-size: 3.052rem ;
+    /* increasing section padding for larger font */
+    #main #home {
+        padding: 150px;
+    }
+
+    /* increasing h2 font size */
+    main .home .page-title {
+        font-size: 7.451rem;
+    }
+
+    /* increasing p font size */
+    #main p {
+        font-size: 1.953rem;
+    }
+
+    /* h2 "about me" styling font size */
+    main .about .section-title {
+        font-size: 4.768rem;
+    }
+
+    /* about me IMG size increase  */
+    #about .about-image {
+        float: left;
+        width: 300px;
+    }
+
+    /* about me font increase */
+    #about p {
+        font-size: 1.953rem;
+    }
+
+    /* contact me h2 styling font increase */
+    main .contact .section-title {
+        font-size: 3.815rem;
+    }
+
+    /* contact me paragraph styling font increase */
+    #contact p {
+        font-size: 1.953rem;
+    }
+
+    /* limiting form size */
+    .contact .contact-form {
+        max-width: 800px;
+    }
 }
-/* about me IMG size increase  */
-#about .about-image {
-    float: left;
-    width: 200px;
-  }
-/* about me font increase/align change */
-#about p{
-    color:black;
-    margin:15px;
-    text-align: right;
-    font-size: 1.563rem ;
-}
-/* contact me h2 styling font increase */
-main .contact .section-title{
-    font-size: 3.052rem;
-}
-/* contact me paragraph styling font increase */
-#contact p{
-    font-size: 1.563rem;
-}
-  }
