@@ -140,7 +140,6 @@ table {
 /* styling header/nav box */
 body #nav {
     width: 100%;
-    margin: none;
     background-color: lightgray;
     background-size: auto;
     border: none;
@@ -167,7 +166,6 @@ body #nav {
 /* main styling for body*/
 body {
     width: auto;
-    margin: none;
     background-color: #f3f3f1;
     box-sizing: border-box;
 }
@@ -205,7 +203,7 @@ main .home .page-title {
 #main #about {
     background-color: lightgray;
     margin: auto;
-    width: inhereit;
+    width: 100%;
     text-align: center;
     box-sizing: border-box;
     padding: 50px;
@@ -237,7 +235,6 @@ main .about .section-title {
 main #contact {
     background-color: #f3f3f1;
     margin: auto;
-    width: inhereit;
     text-align: center;
     box-sizing: border-box;
     padding: 50px;
@@ -318,7 +315,6 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: center;
     margin-top: 12px;
     font-family: Larsseit, Helvetica, sans-serif;
 }
