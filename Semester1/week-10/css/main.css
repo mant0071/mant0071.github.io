@@ -217,6 +217,11 @@ p {
 }
 
 /* ------------------- header ----------------- */
+
+html{
+  box-sizing:border-box;
+
+}
 .mobile-logo {
   max-width: 150px;
 }

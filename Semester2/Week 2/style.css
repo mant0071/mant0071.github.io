@@ -46,29 +46,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* -------------------------------MOBILE STYLES FIRST----------------------------------- */
+/* -------------------------------MOBILE STYLES FIRST 375px----------------------------------- 
+--------------------------------------------------------------------------------------------*/
+
 /* styling header/nav box */
 body #nav {
-    width: auto;
+    width: 100%;
     margin: none;
     background-color: lightgray;
     background-size: auto;
     border: none;
-  }
+    box-sizing: border-box;
+   }
 
 /* styling header links */
-.nav .nav-link {
+#nav .nav-link {
     font-family: Larsseit, Helvetica, sans-serif;
     color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    /* padding: 100px; */
-    /* margin: 25px; ------use later for desktop*/
+    font-size: 1rem;
+   
+    /* margin: 50px; ------use later for desktop*/
 }
 
 /* hover styling */
-.nav a:hover {
+#nav a:hover {
     color: #f1bc58;
 }
 
@@ -77,13 +81,16 @@ body{
     width: auto;
     margin: none;
     background-color: #f3f3f1;
+    box-sizing: border-box;
 }
 /* Styling body, "hello" section */
-main #home {
+#main #home {
     background-color :#f3f3f1;
     margin: auto;
-    width: inhereit;
+    width: auto;
     text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
     
 }
 /* styling h1 text */
@@ -92,37 +99,44 @@ main .home .page-title{
     color: black;
     text-align: center;
     display: inline-block;
-    font-size: 7.451rem;
-    padding-bottom: 50px;
+    font-size: 4.768rem;
+    box-sizing: border-box;
+    padding-bottom: 25px;
 }
 /* first section paragraph font styling */
 #main p{
     font-family: Larsseit, Helvetica, sans-serif; 
     color:#f4a474;
-    font-size:1.563rem ;
+    font-size:1.25rem ;
 }
 
 /* About me box styling */
-main #about{
+#main #about{
     background-color:lightgray;
     margin: auto;
     width: inhereit;
-	text-align: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
 }
 /* h2 "about me" styling */
 main .about .section-title{
     font-family: Larsseit, Helvetica, sans-serif; 
     color:#f4a474;
     padding-bottom: 50px;
-    font-size: 3.815rem ;
+    font-size: 2.441rem ;
 }
+/* about me IMG styling  */
+#about .about-image {
+    float: left;
+    width: 100px;
+  }
 /* about me font styling */
-
 #about p{
     color:black;
     margin:15px;
-    text-align: right;
-    font-size: 1.563rem;
+    text-align: center;
+    font-size: 1.25rem;
 }
 
 /* contact me box styling */
@@ -130,21 +144,22 @@ main #contact{
     background-color :#f3f3f1;
     margin: auto;
     width: inhereit;
-	text-align: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
 }
 /* contact me h2 styling */
 main .contact .section-title{
     font-family: Larsseit, Helvetica, sans-serif; 
     color:black;
     padding-bottom: 50px;
-    font-size: 3.815rem 
+    font-size: 2.441rem;
 }
 /* contact me paragraph styling */
 #contact p{
     color:#f4a474;
-    margin: 0 100px;
     text-align: center;
-    font-size: 1.563rem;
+    font-size: 1.25rem;
     padding-bottom: 50px;
 }
 /* contact me image styling */
@@ -166,7 +181,7 @@ input[type=text], select, textarea{
     box-sizing: border-box;
     resize: vertical;
   }
-  /* separate stying for email input */
+  /* separate styling for email input */
   input[type=email], select, textarea{
     width: 100%;
     padding: 12px;
@@ -188,6 +203,7 @@ input[type=text], select, textarea{
     background-color: #f1bc58;
     padding: 20px;
     width:auto;
+    box-sizing: border-box;
   }
   /* centering text in button and centering button itself */
  button{
@@ -205,5 +221,93 @@ input[type=text], select, textarea{
  /* styling footer */
  footer {
     font-family: Larsseit, Helvetica, sans-serif; 
-    padding-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
  }
+
+/* -------------------------------TABLET STYLES 768px----------------------------------- 
+--------------------------------------------------------------------------------------------*/
+/* increaing font and spacing in nav bar */
+@media screen and (min-width:768px) {
+    #nav .nav-link {
+        padding-right:50px;
+        padding-left:50px;
+        font-size: 1.5rem;
+    }
+    /* increasing h2 font size */
+    main .home .page-title{
+        font-size: 5.96rem;
+    }
+     /* increasing p font size */
+    #main p{
+        font-size:1.563rem ;
+    }
+
+/* h2 "about me" styling font size */
+main .about .section-title{
+    font-size: 3.052rem ;
+}
+/* about me IMG size increase  */
+#about .about-image {
+    float: left;
+    width: 200px;
+  }
+/* about me font increase/align change */
+#about p{
+    color:black;
+    margin:15px;
+    text-align: right;
+    font-size: 1.563rem ;
+}
+/* contact me h2 styling font increase */
+main .contact .section-title{
+    font-size: 3.052rem;
+}
+/* contact me paragraph styling font increase */
+#contact p{
+    font-size: 1.563rem;
+}
+  }
+
+/* -------------------------------DESKTOPSTYLES 1280px----------------------------------- 
+--------------------------------------------------------------------------------------------*/
+@media screen and (min-width:1280px) {
+    #nav .nav-link {
+        padding-right:50px;
+        padding-left:50px;
+        font-size: 1.5rem;
+    }
+    /* increasing h2 font size */
+    main .home .page-title{
+        font-size: 5.96rem;
+    }
+     /* increasing p font size */
+    #main p{
+        font-size:1.563rem ;
+    }
+
+/* h2 "about me" styling font size */
+main .about .section-title{
+    font-size: 3.052rem ;
+}
+/* about me IMG size increase  */
+#about .about-image {
+    float: left;
+    width: 200px;
+  }
+/* about me font increase/align change */
+#about p{
+    color:black;
+    margin:15px;
+    text-align: right;
+    font-size: 1.563rem ;
+}
+/* contact me h2 styling font increase */
+main .contact .section-title{
+    font-size: 3.052rem;
+}
+/* contact me paragraph styling font increase */
+#contact p{
+    font-size: 1.563rem;
+}
+  }
