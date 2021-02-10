@@ -354,6 +354,7 @@ button.calculate {
 .social-links img {
     max-width: 25px;
 }
+
 /* --------------------------------------ADDING TABLET STYLE 768px-----------------------------------------
 ------------------------------------------------------------------------------------------------------ */
 /* changing grid layout for tablet  */
@@ -365,35 +366,39 @@ button.calculate {
         grid-template-columns: 1fr;
         align-content: space-between;
         min-height: 800px;
-    
+
     }
-/* changing backround image size/placement */
-    .main{
+
+    /* changing backround image size/placement */
+    .main {
         background-size: 50%;
         background-position: center 25%;
     }
-/* changing main form width */
- 
-/* chaning footer form */
-.footer-content{
-    display:grid;
-    grid-template-columns: 1fr;
 
- 
+    /* changing main form width */
+    .section-form-content {
+        display: grid;
 
-}
-.social-links{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 4rem 0 4rem;
-    
-  
+    }
+
+    /* chaning footer form */
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr;
 
 
-}
-/* changing footer layout  */
 
-   
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 4rem 0 4rem;
+
+
+
+
+    }
 
 }
