@@ -185,6 +185,7 @@ section.section {
     /* padding:3rem 0; */
     padding-top: 0;
     padding-bottom: 4rem;
+    height: 100%;
 
 }
 
@@ -357,12 +358,11 @@ button.calculate {
 
 /* --------------------------------------ADDING TABLET STYLE 768px-----------------------------------------
 ------------------------------------------------------------------------------------------------------ */
-/* changing grid layout for tablet  */
+/* changing grid layout for tablet, increasing form size  */
 @media screen and (max-width:768px) {
     section.section {
         display: grid;
         grid-gap: 0;
-        justify-items: center;
         grid-template-columns: 1fr;
         align-content: space-between;
         min-height: 800px;
@@ -378,6 +378,7 @@ button.calculate {
     /* changing main form width */
     .section-form-content {
         display: grid;
+        margin-bottom: 75px;
 
     }
 
@@ -389,16 +390,16 @@ button.calculate {
 
 
     }
-
+    /* spacing footer links */
     .social-links {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0 4rem 0 4rem;
 
-
-
-
     }
 
 }
+/* --------------------------------------ADDING MOBILE STYLE 768px-----------------------------------------
+------------------------------------------------------------------------------------------------------ */
+/* fixing footer first as its breaking */
