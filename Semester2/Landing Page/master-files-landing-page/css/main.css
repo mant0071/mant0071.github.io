@@ -178,8 +178,9 @@ section.section{
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding:3rem 0;
+    /* padding:3rem 0; */
     padding-top: 0;
+    padding-bottom: 4rem;
 
 }
 /* styling section text  */
@@ -263,6 +264,13 @@ button.drive{
     margin: 0 -5rem;
     background-color: #fffd8c;
 }
+/* creating grid for footer */
+.footer-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
 /* addding footer text styling  */
 .calculator-form h4{
     margin: 0 4rem;
@@ -272,12 +280,45 @@ button.drive{
     margin: 0 4rem;
     padding-top: 1rem;
 }
-/* adding footer input styling */
 
 /* adding footer form styling */
 .form-group{
-   display: flex;
+   display: inline-flex;
    margin: 0 4rem;
-   padding-top: 5px;
-   
+   padding-top: 10px;
+}
+.form-group input{
+    border: none;
+    padding: 10px 5px 10px;
+    margin-right: 10px;
+}
+/* styling footer button */
+button.calculate{
+    background-color: #ff8480;
+    border: none;
+    border-radius: 10px;
+    font-family: Montserrat-Bold;
+    color: #f7f7ff;
+    font-size: 1rem;
+    padding: 5px 15px;
+    margin-left: -4rem;
+    display:inline-flex;
+}
+/* styling footer link buttons, changing order of icons */
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left:50px;
+
+}
+.social-links :nth-child(1) {order: 2;}
+.social-links :nth-child(2) {order: 0;}
+.social-links :nth-child(3) {order: 1;}
+.social-links :nth-child(4) {order: 3;}
+
+/* changing link image size */
+.social-links img{
+    max-width: 25px;
 }
