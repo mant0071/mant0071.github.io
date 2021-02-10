@@ -390,6 +390,7 @@ button.calculate {
 
 
     }
+
     /* spacing footer links */
     .social-links {
         display: flex;
@@ -400,6 +401,33 @@ button.calculate {
     }
 
 }
+
 /* --------------------------------------ADDING MOBILE STYLE 768px-----------------------------------------
 ------------------------------------------------------------------------------------------------------ */
 /* fixing footer first as its breaking */
+
+@media screen and (max-width:375px) {
+    .calculator-form {
+        display: grid;
+        width: 100%;
+        margin: 0;
+    }
+
+    button.calculate {
+        background-color: #ff8480;
+        border: none;
+        border-radius: 10px;
+        font-family: Montserrat-Bold;
+        color: #f7f7ff;
+        font-size: 1rem;
+        padding: 5px 15px;
+        margin-left: 4rem;
+        display: inline-flex;
+        width: 75%;
+    }
+
+    .footer-content {
+        display: grid;
+
+    }
+}
