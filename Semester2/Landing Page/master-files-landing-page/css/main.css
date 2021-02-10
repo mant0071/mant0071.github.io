@@ -397,6 +397,7 @@ button.calculate {
         justify-content: space-between;
         align-items: center;
         margin: 0 4rem 0 4rem;
+        flex-direction: row-reverse;
 
     }
 
@@ -421,13 +422,12 @@ button.calculate {
         color: #f7f7ff;
         font-size: 1rem;
         padding: 5px 15px;
+        display: flex;
+        flex-wrap: wrap;
         margin-left: 4rem;
-        display: inline-flex;
-        width: 75%;
+        margin-top: 20px;
+        width:75%;
     }
-
-    .footer-content {
-        display: grid;
-
-    }
+  
+   
 }
