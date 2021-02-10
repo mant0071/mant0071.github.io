@@ -136,6 +136,148 @@ table {
 /* Adding custom styles  */
 html {
     font-family: Montserrat, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
   }
+/* Styling main for padding before styling header
+------------------desktop styling first
+--------------- */
+.main{
+    display: grid; 
+    grid-template-columns: 3fr;
+    grid-template-rows: 115px 1fr auto;
+    justify-content: center;
+    height: 100%;
+    padding: 0 5rem; 
+    background-color: #f7f7ff;
+    background-image: url(../images/bg-image/scooter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+ 
+} 
+
+/* styling header, fixing image size */
+  .header{
+    display:grid;
+    width:100%;
+    margin: 0 auto; 
+    box-sizing: border-box;
+
+}
+.header img{
+    max-height: 80px;
+} 
+/* styling section block  */
+section.section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: space-between;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:3rem 0;
+    padding-top: 0;
+
+}
+/* styling section text  */
+
+.section h1{
+    font-family: Montserrat-Bold; 
+    font-size: 3.052rem;
+    line-height: 1.3 ;
+    color: #333131;
+    max-width: 416px;
+    padding-bottom: 0.5rem;
+}
+.main-text p{
+    font-size: 1rem;
+    color: #333131;
+    /* max-width:416px; */
+    
+}
+/* section form styling, styling texts in form first */
+.section-form-content h3{
+    color: #333131;
+    font-family: Montserrat-Bold;
+    font-size: 1.563rem;
+    padding-bottom: 10px;
+    width: auto;
+}
+.section-form-content p{
+    color: #333131;
+    font-size: 1rem ;
+    padding-bottom: 10px;
+    width: auto;
+}
+.checkterms{
+    color: #333131;
+    font-size: 0.8rem;
+    width:auto;
+}
+.section-form-button p{
+    color: #333131;
+    font-size: 0.8rem;
+}
+.section-form-button a{
+    color: #ff8480;
+    text-decoration: none;
+}
+/* styling form itself */
+.section-form-content{
+    display:inline-block;
+    width: auto;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px;
+}
+/* styling inputs on form */
+.section-input input{
+    width: 98%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px 0 10px 5px;
+    background-color: #f7f7ff ;
+    border-radius: 5px;
+    border: none;
+}
+/* styling button in form  */
+button.drive{
+    background-color: #57eeab;
+    margin: 10px 0 10px;
+    padding:10px;
+    width: 98%;
+    border:none;
+    border-radius: 10px;
+    font-family: Montserrat-SemiBold;
+    font-size:1.563rem;
+}
+
+/* styling footer, negative margin for background bleed  */
+.footer{
+    padding: 2rem 1rem;
+    margin: 0 -5rem;
+    background-color: #fffd8c;
+}
+/* addding footer text styling  */
+.calculator-form h4{
+    margin: 0 4rem;
+    font-family: Montserrat-Bold;
+}
+.calculator-form p{
+    margin: 0 4rem;
+    padding-top: 1rem;
+}
+/* adding footer input styling */
+
+/* adding footer form styling */
+.form-group{
+   display: flex;
+   margin: 0 4rem;
+   padding-top: 5px;
+   
+}
