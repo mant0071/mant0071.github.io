@@ -143,8 +143,9 @@ body{
     line-height: 1.5625;
     color: #090c08;
     background-color: #f4f3ee;
+    box-sizing:border-box;
 }
-/* ---------------------STYLING MOBILE FIRST 375PX--------------------- */
+/* ---------------------STYLING MOBILE FIRST 375PX ------Home----------------------------- */
 
 /* styling header first, want fixed */
 header{
@@ -164,20 +165,45 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     text-decoration: none;
-    padding-top:25px;
+    padding-top:30px;
 }
 /* sizing header logo */
 img.header-logo{
     max-width:100px;
     display: flex;
-   
+    margin-top: -35px;
 } 
+/* animating header logo */
+img.header-logo:hover{
+    animation-name: shake;
+    animation-duration:0.5s;
+    animation-iteration-count: 1 ;
+}
+@keyframes shake {
+    0% { transform: translateX(0%); } 
+    15% { transform: translateX(-25%) rotate(-5deg); } 
+    30% { transform: translateX(20%) rotate(3deg); } 
+    45% { transform: translateX(-15%) rotate(-3deg); } 
+    60% { transform: translateX(10%) rotate(2deg); }
+    75% { transform: translateX(-5%) rotate(-1deg); }
+    100% { transform: translateX(0%); } 
+ } 
+ /* styling nav links  */
+a.nav-link{
+     text-decoration:none;
+     font-family: roboto;
+     font-size: 0.8rem;
+     color: #607744;
+ }
+ a.nav-link:hover{
+     color:black;
+ }
+
 /* main wrapper margins */
 .homewrapper{
     margin-left: 2em;
     margin-right: 2em;
 }
-
 
 /* styling banner image/text */
 .hero-image{
@@ -254,4 +280,29 @@ p.bannerp{
 .cta1:hover::after {
 	opacity: 1;
 	transform: scale(1,1);
+}
+/* h2 and p block styling */
+.promotext.container{
+    max-width: 1640px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0;
+    display:block;
+    width:100%;
+}
+h2.uplift{
+    font-size:1.25em;
+    text-align:right;
+    padding-top: 100px;
+}
+p.uplift{
+    text-align:right;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+/* styling main product photo in grid with icons*/
+.productimg{
+    width:100%;
+    padding-right: 2em;
 }
