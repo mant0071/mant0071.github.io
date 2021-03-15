@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- adding charset, title, linked css stylesheet and added favicon -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaia Greens - About</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="..//Gaia Greens/images/Icons/favicon.png" type="image/ico">
+</head>
+<!-- adding header with links, and logo link in the centre, organizing wrapper -->
+<body>
+    <main>
+        <header>
+            <nav id="nav" class="nav">
+                <a class="nav-link" href="shop.html">Shop</a>
+                <a class="nav-link" href="#home">
+                    <img src="..//Gaia Greens/images/Logo/green logo.png" alt="Gaia logo" class="header-logo">
+                </a>
+                <a class="nav-link" href="about.html">About</a>
+            </nav>
+        </header>
+        <!-- adding wrapper for image and form, adding image -->
+        <div class="shopwrapper">
+            <div class="shopimgwrapper">
+                <div class="shopimg"></div>
+            </div>
+            <!-- adding wrappers for text and review -->
+            <div class="mainformwrapper">
+                <div class="headwrapper">
+                    <h2>Gaia Greens - Original</h2>
+                </div>
+                <div class="review">
+                    <div class="starsimg"></div>
+                    <div class="reviewtext">
+                        <p>3 Reviews (5 out of 5 stars)</p>
+                    </div>
+                    <div class="description">
+                        <p>30 Day Supply</p>
+                        <p>Now taking pre-orders via email.</p>
+                    </div>
+                </div>
+                <!-- adding form -->
+                <form action="thanks.html" method="get">
+                    <div class="first">
+                        <label class="firstname" for="firstname">First Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="last">
+                        <label class="lastname" for="fullname">Last Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="email">
+                        <label class="email" for="youremail">Email</label>
+                        <input type="email" id="youremail" name="youremail" required>
+                    </div>
+                    <div class="quantity">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </div>
+                    <div class="subscribe">
+                        <label for="one">One-time Purchase</label>
+                        <input type="radio" id="one" name="past">
+                        <label for="subscribe">Subscribe and Save</label>
+                        <input type="radio" id="subscribe" name="past">
+                     </div>
+                     <button class="cta5" type="submit">PRE-ORDER NOW</button>
+                </form>
+             </div>
+        </div>
+    </main>
+        <!-- adding footer with logo/social icons -->
+        <footer class="footer">
+            <div class="footer-block">
+                <div class="logo-iconwrapper">
+                    <div class="logowrapper">
+                        <a class="footer-link" href="#home">
+                            <img src="..//Gaia Greens/images/Logo/White logo.png" alt="Gaia logo white" class="footer-logo">
+                        </a>
+                    </div>
+                    <ul class="footersocials">
+                        <li>
+                            <a href="https://www.facebook.com/">
+                                <img alt="facebook" class="fb" src="..//Gaia Greens/images/Icons/facebook.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instgram.com/">
+                                <img alt="instagram" class="insta" src="..//Gaia Greens/images/Icons/instagram.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/">
+                                <img alt="twitter" class="twitter" src="..//Gaia Greens/images/Icons/twitter.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/">
+                                <img alt="linkedin" class="linkedin" src="..//Gaia Greens/images/Icons/linkedin.svg">
+                            </a>
+                        </li>
+                    </ul>
+    
+                </div>
+            </div>
+            <!-- adding copyright -->
+            <div class="copuright">
+                Copyright &copy; Gaia Greens, 2021
+            </div>
+        </footer>
+</body>
