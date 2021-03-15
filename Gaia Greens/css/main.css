@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* GENERAL STYLES FIRST */
+
+body{
+    margin:0;
+    font-family: Playfair Display, Roboto, arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5625;
+    color: #090c08;
+    background-color: #f4f3ee;
+}
+/* ---------------------STYLING MOBILE FIRST 375PX--------------------- */
+
+/* styling header first, want fixed */
+header{
+    /* position: fixed; */
+    height: 85px;
+    box-shadow: 0 4px 8px 0 black;
+    box-sizing: border-box;
+    width:100%;
+}
+/* nav bar-styles */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-top:25px;
+}
+/* sizing header logo */
+img.header-logo{
+    max-width:100px;
+    display: flex;
+   
+} 
+/* main wrapper margins */
+.homewrapper{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+/* styling banner image/text */
+.hero-image{
+    background-image: url(..//images/bigs/home\ banner.jpg);
+    background-position:left;
+    background-size: cover;
+    min-height: 450px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-left:-2em;
+    margin-right:-2em;
+}
+/* styling text in the banner */
+h1.banner{
+    margin-top: -400px;
+    text-align: left;
+    color: white;
+    font-size: 32px;
+    max-width: 375px;
+    padding-bottom: 20px;
+    max-width: 355px;
+}
+p.bannerp{
+    font-size:0.8rem;
+    color: white;
+    padding-bottom: 20px;
+    max-width: 355px;
+}
+/* need to style button. */
