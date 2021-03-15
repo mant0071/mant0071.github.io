@@ -206,4 +206,52 @@ p.bannerp{
     padding-bottom: 20px;
     max-width: 355px;
 }
-/* need to style button. */
+/* adding button styles+animation */
+.cta1{
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+	transition: all 0.5s;
+    position: relative;
+    font-family: roboto;
+    font-size: 0.64rem ;
+    text-decoration: none;
+    background-color: black;
+    padding:25px 50px;
+}
+/* grey hover fade */
+.cta1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+    background-color: rgba(255,255,255,0.1);
+	transition: all 0.3s;
+}
+.cta1:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+/* border styles */
+.cta1::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(255,255,255,0.5);
+	transform: scale(1.2,1.2);
+}
+.cta1:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
