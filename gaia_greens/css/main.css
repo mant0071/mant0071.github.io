@@ -337,7 +337,7 @@ p.bannerp {
 p.uplift {
     text-align: right;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /* setting grid for product image and icons */
@@ -435,21 +435,27 @@ h2.nutritional {
 }
 
 /* adding image block - smoothie */
-.aboutimg {
-    background-image: url(..//images/bigs/homesmoothie3.jpg);
-    padding-top: 50px;
-    /* width: 100%; */
-    margin-top: 2em;
-    margin-left:-2em;
-    margin-right:-2em;
-    height: 277px;
+.imgwrapper{
+    margin-left: -2em;
+    margin-right: -2em;
+    padding-top: 15px;
+}
+/* adding smoothie image  */
+.aboutimg{
+    background-image: url(..//images/Optimized/homesmoothie3.jpg);
+    height: 278px;
+    margin: 20px;
+    width: auto;
+    margin-left: -2em;
+    margin-right: -2em;
+    background-position:center;
 }
 
 /* adding text block with cta again */
 h2.about {
     font-size: 1.25em;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 20px;
     font-weight: bolder;
 }
@@ -478,28 +484,28 @@ h2.about {
 }
 
 /* adding image block - trees */
-.trees {
-        background-image: url(..//images/bigs/home\ trees.jpg);
-        padding-top: 50px;
-        /* width: 100%; */
-        margin-top: 2em;
-        margin-left:-2em;
-        margin-right:-2em;
-        height: 277px;
+.trees{
+    background-image: url(..//images/Optimized/home\ trees.jpg);
+    height: 278px;
+    margin: 20px;
+    width: auto;
+    margin-left: -2em;
+    margin-right: -2em;
+    background-position:center;
+    background-repeat: no-repeat;
 }
-
 /* adding gaia4good textblock */
 .textwrapper h2.forgood {
     font-size: 1.25em;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 25px;
     font-weight: bolder;
 }
 
 p.forgood {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 /* styling link */
@@ -638,13 +644,17 @@ p.forgood {
     border-top: #607744 1px solid;
     border-bottom: #607744 1px solid;
 }
-
+/* flex wrapper for ingredients */
+.ingredientimgwrapper{
+    display: flex;
+    justify-content: center;
+}
 /* styling ingredient image */
-.ingredientimg{
-    background-image: url(..//images/bigs/ingredients.png);
-    height: 350px;
-    margin: 20px;
-    width: auto;
+.ingredientimg img{
+    max-width:100%;
+    height:auto;
+    padding-top: 25px;
+
 }
 
 /* styling header with paragraph block */
@@ -664,12 +674,14 @@ p.forgood {
 
 /* styling yoga image */
 .yogaimg{
-background-image: url(..//images/bigs/about\ yoga.jpg);
+background-image: url(..//images/Optimized/about\ yoga.jpg);
 height: 350px;
 margin: 20px;
 width: auto;
 margin-left: -2em;
 margin-right: -2em;
+background-position:center;
+background-repeat: no-repeat;
 }
 /* styling header and bottom call to action button */
 .gettextwrapper h2 {
@@ -705,6 +717,7 @@ a.cta4:hover {
     flex-direction:column;
     align-items: center;
 }
+/* adding image wrap */
 .shopimg img{
     padding-top: 20px;
     padding-bottom:20px;
@@ -724,9 +737,43 @@ a.cta4:hover {
     padding-bottom: 10px;
 }
 /* form styling */
-.firstname{
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number] {
+    padding: 5px 5px;
+    margin-left:5px;
+    margin-bottom:5px
+  }
+ /* changing radio button */
+
+ /* styling last cta */
+ button.cta5 {
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
     font-family: roboto;
-    font-size: 0.65rem;
-    background-color: #607744;
-    padding:5px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: black;
+    padding: 15px 50px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border: none;
+}
+
+button.cta5:hover {
+    opacity: 80%;
 }

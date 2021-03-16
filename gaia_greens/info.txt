@@ -1,0 +1,23 @@
+Design was created separately for this assignment, 
+working around a product idea that is in the works, 
+ingredient list image is from actual sample. 
+
+
+homebanner.jpg from https://burst.shopify.com/photos/search?utf8=%E2%9C%93&q=woman+smoothie&button=
+https://burst.shopifycdn.com/photos/green-health-smoothie.jpg?width=4460&height=4460&exif=1&iptc=1&attachment=green-health-smoothie.jpg
+
+aboutyoga.jpg from https://unsplash.com/
+https://images.unsplash.com/photo-1603710488233-cdd4e1eb9c14?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=kelly-newton-FGQQho5XXn4-unsplash.jpg
+
+homesmoothie3.jpg from https://unsplash.com/
+https://images.unsplash.com/photo-1610622929740-0b489c884e43?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=alex-loup-JJKEQgcNzS4-unsplash.jpg
+
+aboutbanner.jpg from https://unsplash.com/
+https://images.unsplash.com/photo-1610622929740-0b489c884e43?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=alex-loup-JJKEQgcNzS4-unsplash.jpg
+
+hometrees.jpg from https://unsplash.com/
+https://images.unsplash.com/photo-1462143338528-eca9936a4d09?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=arnaud-mesureur-7EqQ1s3wIAI-unsplash.jpg
+
+Mockups are under images/Mockups
+
+Thanks! 
