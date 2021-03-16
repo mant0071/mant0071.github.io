@@ -355,10 +355,46 @@ p.uplift {
     min-height: 450px;
     height: auto;
     background-repeat: no-repeat;
-    margin-left: -2em;
-    margin-right: -2em;
+    /* margin-left: -2em; */
 }
-
+/* setting flex for images/icons */
+.productwrap{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+}
+.digest{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+  
+}
+.allergen{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+}
+.check{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+}
+/* styling icon images */
+.digestimg img{
+    max-width: 100px;
+    margin-bottom: -25px;
+}
+.allergenimg img{
+    max-width: 100px;
+    margin-bottom: -25px;
+}
+.checkimg img{
+    max-width: 100px;
+    margin-bottom: -25px;
+}
 /* styling text for icon images */
 .productwrap p {
     font-size: 0.8rem;
@@ -668,3 +704,9 @@ a.cta4:hover {
     padding-bottom: 10px;
 }
 /* form styling */
+.firstname{
+    font-family: roboto;
+    font-size: 0.65rem;
+    background-color: #607744;
+    padding:5px;
+}
