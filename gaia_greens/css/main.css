@@ -401,6 +401,7 @@ h2.nutritional {
 /* adding image block - smoothie */
 .aboutimg {
     padding-top: 25px;
+    width: 100%;
 }
 
 /* adding text block with cta again */
