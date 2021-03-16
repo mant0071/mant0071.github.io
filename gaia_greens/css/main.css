@@ -235,7 +235,7 @@ a.nav-link:hover {
 
 /* styling banner image/text */
 .hero-image {
-    background-image: url(..//images/bigs/home\ banner.jpg);
+    background-image: url(..//images/Optimized/home\ banner.jpg);
     background-position: left;
     background-size: cover;
     min-height: 450px;
@@ -436,10 +436,13 @@ h2.nutritional {
 
 /* adding image block - smoothie */
 .aboutimg {
-    padding-top: 25px;
-    width: 100%;
-    margin-left: -2em;
-    margin-right: -2em;
+    background-image: url(..//images/bigs/homesmoothie3.jpg);
+    padding-top: 50px;
+    /* width: 100%; */
+    margin-top: 2em;
+    margin-left:-2em;
+    margin-right:-2em;
+    height: 277px;
 }
 
 /* adding text block with cta again */
@@ -476,7 +479,13 @@ h2.about {
 
 /* adding image block - trees */
 .trees {
-    padding-top: 25px;
+        background-image: url(..//images/bigs/home\ trees.jpg);
+        padding-top: 50px;
+        /* width: 100%; */
+        margin-top: 2em;
+        margin-left:-2em;
+        margin-right:-2em;
+        height: 277px;
 }
 
 /* adding gaia4good textblock */
@@ -551,7 +560,7 @@ p.forgood {
 
 /* styling about banner image */
 .aboutbanner {
-    background-image: url(..//images/bigs/about\ banner.jpg);
+    background-image: url(..//images/Optimized/about\ banner.jpg);
     background-position: left;
     background-size: cover;
     min-height: 450px;
