@@ -151,7 +151,7 @@ body{
 header{
     /* position: fixed; */
     height: 85px;
-    box-shadow: 0 4px 8px 0 black;
+    /* box-shadow: 0 4px 8px 0 black; */
     box-sizing: border-box;
     width:100%;
 }
@@ -229,7 +229,7 @@ h1.banner{
 p.bannerp{
     font-size:0.8rem;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     max-width: 355px;
 }
 /* adding button styles+animation */
@@ -242,7 +242,7 @@ p.bannerp{
 	transition: all 0.5s;
     position: relative;
     font-family: roboto;
-    font-size: 0.64rem ;
+    font-size: 0.8rem ;
     text-decoration: none;
     background-color: black;
     padding:25px 50px;
@@ -290,19 +290,158 @@ p.bannerp{
     display:block;
     width:100%;
 }
-h2.uplift{
+.textwrapper h2.uplift{
     font-size:1.25em;
     text-align:right;
     padding-top: 100px;
+    font-weight: bolder;
 }
 p.uplift{
     text-align:right;
     padding-top:20px;
     padding-bottom:20px;
 }
+/* setting grid for product image and icons */
+.homeproduct{
+    background-color: white;
+    margin-left:-2em;
+    margin-right:-2em;
+}
 
 /* styling main product photo in grid with icons*/
 .productimg{
-    width:100%;
-    padding-right: 2em;
+    display:block;
+    background-image: url(..//images/Optimized/homebag_208.png);
+    background-position:center;
+    min-height: 450px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-left:-2em;
+    margin-right:-2em;
+}
+/* styling text for icon images */
+.productwrap p{
+    font-size:0.8rem;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.productwrap h4{
+    text-align:center ;
+}
+
+/* styling text block with large button */
+h2.nutritional{
+    font-size:1.25em;
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+/* styling "get your greens" button */
+.cta2 a{
+    display:block;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 0.8rem ;
+    text-align: center;
+    background-color: black;
+    padding:25px 50px;
+    color:white;
+}
+.cta2 a:hover{
+    opacity:80%;
+}
+/* adding image block - smoothie */
+.aboutimg{
+    padding-top: 25px;
+}
+/* adding text block with cta again */
+h2.about{
+    font-size:1.25em;
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.abouttext {
+    text-align: center;
+    padding-bottom: 20px ;
+}
+.cta3 a{
+    display:block;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 0.8rem ;
+    text-align: center;
+    background-color: black;
+    padding:15px 50px;
+    color:white;
+}
+.cta3 a:hover{
+    opacity:80%;
+}
+/* adding image block - trees */
+.trees{
+    padding-top: 25px;
+}
+
+/* adding gaia4good textblock */
+.textwrapper h2.forgood{
+    font-size:1.25em;
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+}
+p.forgood{
+    text-align: center;
+    padding-bottom: 20px ;
+}
+/* styling link */
+.textwrapper a{
+    text-decoration:none;
+    color:black;
+}
+.textwrapper a:hover{
+   color:#607744;
+}
+/* styling footer */
+.footer{
+    position:relative;
+    padding-bottom:20px;
+    background-color: black;
+}
+.footer-link img{
+    max-width: 100px;
+    margin-left: -15px;
+}
+.footer-block{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1640px;
+    width: 100%;
+
+}
+.footersocials{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-left: 20px ;
+}
+/* copyright */
+.copyright{
+    color: #f4f3ee;
+    font-family: roboto;
+    font-size: 0.64rem;
+    margin-left:2em;
+    padding-top: 10px;
 }
