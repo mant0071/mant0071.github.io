@@ -640,9 +640,11 @@ p.forgood {
 }
 
 /* styling ingredient image */
-.ingredientimg img {
-    max-height: 260px;
-    padding-top: 40px;
+.ingredientimg{
+    background-image: url(..//images/bigs/ingredients.png);
+    height: 350px;
+    margin: 20px;
+    width: auto;
 }
 
 /* styling header with paragraph block */
@@ -661,7 +663,14 @@ p.forgood {
 }
 
 /* styling yoga image */
-
+.yogaimg{
+background-image: url(..//images/bigs/about\ yoga.jpg);
+height: 350px;
+margin: 20px;
+width: auto;
+margin-left: -2em;
+margin-right: -2em;
+}
 /* styling header and bottom call to action button */
 .gettextwrapper h2 {
     font-size: 1.25em;
@@ -683,7 +692,7 @@ a.cta4 {
     background-color: black;
     padding: 15px 50px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 a.cta4:hover {
