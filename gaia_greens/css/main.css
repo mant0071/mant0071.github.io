@@ -641,3 +641,29 @@ a.cta4 {
 a.cta4:hover {
     opacity: 80%;
 }
+
+/* ------------------------STYLING SHOP PAGE--------------MOBILE */
+.shopwrapper{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.shopimg img{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.headwrapper h2{
+    font-size: 1.25em;
+    text-align: left;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+/* styling non-form text */
+.description p{
+    font-size: 0.8rem;
+}
+.description{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* form styling */
