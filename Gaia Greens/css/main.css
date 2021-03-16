@@ -368,7 +368,7 @@ h2.about{
 }
 .abouttext {
     text-align: center;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
 }
 .cta3 a{
     display:block;
@@ -401,7 +401,7 @@ h2.about{
 }
 p.forgood{
     text-align: center;
-    padding-bottom: 20px ;
+    padding-bottom: 30px ;
 }
 /* styling link */
 .textwrapper a{
@@ -425,8 +425,8 @@ p.forgood{
     display:block;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     max-width: 1640px;
     width: 100%;
 
@@ -443,5 +443,128 @@ p.forgood{
     font-family: roboto;
     font-size: 0.64rem;
     margin-left:2em;
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+/* styling about page--------------MOBILE---------------- */
+/* re-setting margins for about page */
+.mainwrapper{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+/* styling about banner image */
+.aboutbanner{
+    background-image: url(..//images/bigs/about\ banner.jpg);
+    background-position:left;
+    background-size: cover;
+    min-height: 450px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-left:-2em;
+    margin-right:-2em;
+}
+/* styling about banner text */
+.aboutbannertext{
+    color:white;
+    font-size: 32px;
+    max-width: 375px;
+    padding-top: 250px;
+    max-width: 355px;
+    margin-left:1em ;
+}
+/*styling about paragraph section */    
+.pwrapper{
+    background-color: white;
+    margin-left: -2em;
+    margin-right: -2em;
+}
+.about{
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+/* styling list section and header */
+.listhead{
+    font-size: 1.25em;
+    text-align: left;
+    padding-top: 25px;
+    font-weight: bolder;
+}
+/* styling paragraph list */
+.pgroup{
+    padding-top: 20px;
+    max-width: 600px;
+}
+.o{
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-top:#607744 1px solid;
+}
+.s{
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-top:#607744 1px solid;
+}
+.v{
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-top:#607744 1px solid;
+}
+.e{
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-top:#607744 1px solid;
+}
+.p{
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-top:#607744 1px solid;
+    border-bottom:#607744 1px solid; 
+}
+/* styling ingredient image */
+.ingredientimg img{
+    max-height: 260px;
+    padding-top: 40px;
+}
+
+/* styling header with paragraph block */
+.yogawrapper h2{
+    font-size:1.25em;
+    text-align:left;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.yogawrapper p{
+    text-align:right;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: left;
+}
+/* styling yoga image */
+
+/* styling header and bottom call to action button */
+.gettextwrapper h2{
+    font-size:1.25em;
+    text-align:center;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+a.cta4{
+    display:block;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 0.8rem ;
+    text-align: center;
+    background-color: black;
+    padding:15px 50px;
+    color:white;
+    margin-bottom: 20px;
+}
+a.cta4:hover{
+    opacity:80%;
 }
