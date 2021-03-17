@@ -443,7 +443,7 @@ h2.nutritional {
 }
 /* adding smoothie image  */
 .aboutimg{
-    background-image: url(..//images/Optimized/homesmoothie3.jpg);
+    background-image: url(..//images/Optimized/Home-Mobile/homesmoothie3.jpg);
     height: 278px;
     margin: 20px;
     width: auto;
@@ -488,7 +488,7 @@ h2.about {
 
 /* adding image block - trees */
 .trees{
-    background-image: url(..//images/Optimized/home\ trees.jpg);
+    background-image: url(..//images/Optimized/Home-Mobile/home\ trees.jpg);
     height: 278px;
     margin: 20px;
     width: auto;
@@ -569,7 +569,7 @@ p.forgood {
 
 /* styling about banner image */
 .aboutbanner {
-    background-image: url(..//images/Optimized/about\ banner.jpg);
+    background-image: url(..//images/Optimized/about-mobile/aboutbannersmall.jpg);
     background-position: left;
     background-size: cover;
     min-height: 450px;
@@ -677,7 +677,7 @@ p.forgood {
 
 /* styling yoga image */
 .yogaimg{
-background-image: url(..//images/Optimized/about\ yoga.jpg);
+background-image: url(..//images/Optimized/about-mobile/about\ yoga.jpg);
 height: 350px;
 margin: 20px;
 width: auto;
