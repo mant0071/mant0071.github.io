@@ -1060,7 +1060,6 @@ p.uplift {
     text-align: right;
     padding-top: 20px;
     padding-bottom: 50px;
-    /* max-width:1000px;  */
     font-size: 1.25rem;
 }
 
@@ -1078,8 +1077,7 @@ p.uplift {
     min-height: 450px;
     height: auto;
     background-repeat: no-repeat;
-    /* margin-left: -2em; */
-    /* margin-right: -2em; */
+ 
 }
 /* setting flex for images/icons */
 .productwrap{
@@ -1229,5 +1227,55 @@ p.forgood {
     font-size: 1.25rem;
     padding-left: 100px;
 }
-
+/* ------------------------------------ABOUT DESKTOP STYLES--------------- */
+/* styling header text */
+.aboutbannertext{
+    font-size: 3.052rem;
+    max-width: 500px;
+    padding-bottom: 50px;
+}
+/* styling p text */
+.pwrapper{
+    font-size: 1.25rem;
+    padding-left:25px ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* padding for image block */
+.ingredientimgwrapper{
+    padding-bottom: 25px;
+}
+/* padding for list block */
+.ingredienttext{
+    margin-right: 50px;
+}
+/* styling text in block with yoga img */
+.yogawrapper h2{
+    font-size: 1.5rem;
+}
+.yogawrapper p{
+    font-size: 1.25rem;
+}
+.yogatextwrapper{
+    margin-left:-1rem;
+    max-width: 500px ;
+}
+/* padding yoga wrapper */
+.yogawrapper{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* changing yoga img size */
+.yogaimg{
+    height:400px;
+    width:auto;
+}
+/* styling header and cta button */
+.gettextwrapper h2{
+    font-size: 1.5rem;
+    padding-top: 25px;
+}
+a.cta4{
+    font-size: 1rem;
+}
 }
