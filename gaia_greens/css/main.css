@@ -1278,4 +1278,21 @@ p.forgood {
 a.cta4{
     font-size: 1rem;
 }
+/* ------------------SHOP PAGE DESKTOP------------------ */
+/* changing layout */
+.shopwrapper{
+    display:grid;
+    padding-top: 50px;
+}
+.mainformwrapper{
+   grid-column:2;
+}
+.shopimgwrapper{
+    grid-column:1;
+
+}
+/*changing footer padding */
+.footer{
+    padding-left:2em;
+}
 }
