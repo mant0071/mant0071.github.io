@@ -150,7 +150,7 @@ body {
 /* ---------------------STYLING MOBILE FIRST 375PX ------Home----------------------------- */
 
 /* styling header first, want fixed */
-header {
+header{
     /* position: fixed; */
     height: 85px;
     /* box-shadow: 0 4px 8px 0 black; */
@@ -948,4 +948,286 @@ button.cta5{
         margin-top: 30px;
 
 }
+}
+/* --------------------DESKTOP STYLES 1280px------------------------
+-----------------Home------------------------------- */
+@media only screen and (min-width: 1280px) {
+    .homewrapper{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+/* styling header */
+header{
+    /* position: fixed; */
+    height: 100px;
+    /* box-shadow: 0 4px 8px 0 black; */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* nav bar-styles */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    padding-top: 35px;
+}
+
+/* sizing header logo */
+img.header-logo {
+    max-width: 150px;
+    display: flex;
+    margin-top: -55px;
+}
+/* styling nav links */
+a.nav-link {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 1rem;
+    color: #607744;
+}
+/* styling banner image/text */
+
+.hero-image {
+    background-image: url(..//images/Optimized/Home-Mobile/home\ bannersmall.jpg);
+    background-position: left;
+    background-size: cover;
+    min-height: 450px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: -4em;
+    margin-right: -4em;
+}
+
+/* styling text in the banner */
+h1.banner {
+    margin-top: -525px;
+    text-align: left;
+    color: white;
+    font-size: 3.052rem;
+    max-width: 375px;
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+
+p.bannerp {
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 25px;
+    max-width: 355px;
+}
+/* styling button in banner */
+.cta1 {
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    position: relative;
+    font-family: roboto;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: black;
+    padding: 25px 100px;
+}
+/* styling text section */
+.promotext.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    display: block;
+    margin:0;
+
+}
+.textwrapper{
+    margin-right: 75px;
+}
+.textwrapper h2.uplift {
+    font-size: 1.563rem;
+    text-align: right;
+    padding-top: 125px;
+    font-weight: bolder;
+}
+
+p.uplift {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    /* max-width:1000px;  */
+    font-size: 1.25rem;
+}
+
+/* setting grid for product image and icons */
+.homeproduct {
+    background-color: white;
+    margin-left: -4em;
+    margin-right: -4em;
+}
+/* changing prodcut image size */
+.productimg {
+    display: block;
+    background-image: url(..//images/Optimized/shop328.png);
+    background-position: center;
+    min-height: 450px;
+    height: auto;
+    background-repeat: no-repeat;
+    /* margin-left: -2em; */
+    /* margin-right: -2em; */
+}
+/* setting flex for images/icons */
+.productwrap{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+.digest{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+  
+}
+.allergen{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+}
+.check{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+}
+/* styling icon images */
+.digestimg img{
+    max-width: 150px;
+    margin-bottom: -25px;
+}
+.allergenimg img{
+    max-width: 150px;
+    margin-bottom: -25px;
+}
+.checkimg img{
+    max-width: 150px;
+    margin-bottom: -25px;
+}
+/* styling text for icon images */
+.productwrap p {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.productwrap h4 {
+    text-align: center;
+    font-size: 1.25rem ;
+}
+
+/* styling text block with large button */
+h2.nutritional {
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+/* styling "get your greens" button */
+.cta2 a {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    padding: 25px 50px;
+    color: white;
+    margin-bottom: 25px;
+   
+}
+/* -----------------------CHANGING IMAGES SIZES------------------ */
+.aboutimg{
+    background-image: url(..//images/Optimized/home-tablet/homesmoothietablet.jpg);
+    height: 600px;
+    margin: 20px;
+    width: auto;
+    margin-left: -4em;
+    margin-right: -4em;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.trees{
+    background-image: url(..//images/Optimized/home-tablet/home\ trees.jpg);
+    height: 500px;
+    margin: 20px;
+    width: auto;
+    margin-left: -4em;
+    margin-right: -4em;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+/* styling text block and cta again */
+h2.about {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.abouttext {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+
+.cta3 a {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: roboto;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    padding: 15px 50px;
+    color: white;
+}
+
+.cta3 a:hover {
+    opacity: 80%;
+}
+/* styling text block and header */
+.textwrapper{
+    text-align: center;
+}
+.textwrapper h2.forgood {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-weight: bolder;
+    padding-left: 100px;
+}
+
+p.forgood {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 1.25rem;
+    padding-left: 100px;
+}
+
 }
