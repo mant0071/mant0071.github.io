@@ -824,5 +824,26 @@ button.cta5:hover {
     grid-column-start: 3;
     grid-column-end:5;
 }
+/* -----------------------Changing smoothie and tree size img to fill---------- */
+.aboutimg{
+    background-image: url(..//images/Optimized/home-tablet/homesmoothietablet.jpg);
+    height: 310px;
+    margin: 20px;
+    width: auto;
+    margin-left: -2em;
+    margin-right: -2em;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.trees{
+    background-image: url(..//images/Optimized/home-tablet/home\ trees.jpg);
+    height: 500px;
+    margin: 20px;
+    width: auto;
+    margin-left: -2em;
+    margin-right: -2em;
+    background-position:center;
+    background-repeat: no-repeat;
+}
 }  
   
