@@ -845,5 +845,58 @@ button.cta5:hover {
     background-position:center;
     background-repeat: no-repeat;
 }
+/* ----------------------------------adding tablet styles to about page------------------------ */
+/* moving image to left and aligning text list on the right */
+.ingredientwrapper{
+    display:grid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.ingredientimg{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row: 1;
+    max-width: 400px;
+}
+.ingredienttext{
+    grid-column-start: 3;
+    grid-column-end:5;
+    grid-row: 1;
+}
+/* setting new container, moving text to the left, yoga image to the right, changing background */
+.yogawrapper{
+    display:grid;
+    background-color: white;
+    margin-left: -2em;
+    margin-right: -2em;
+    /* grid-column-gap: 50px; */
+}
+.yogatextwrapper{
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row: 1;
+    max-width: 400px;
+    margin-left: 2em;
+    margin-right: 1em;
+}
+.yogaimgwrapper{
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row: 1;
+    margin-right: 2em;
+    width:300px;
+    margin-left: 2em;
+}
+.yogaimg{
+    max-height:241px ;
+    width:auto;
+  
+}
+.yogawrapper{
+    display:flex;
+    justify-content: space-around;
+}
+/* -----------------------adding shop styles- tablet-------- */
 }  
   
