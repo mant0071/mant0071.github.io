@@ -784,7 +784,6 @@ input[type=text] {
  button.cta5 {
     display: block;
     width: auto;
-    margin-left: auto;
     margin-right: auto;
     font-family: roboto;
     text-decoration: none;
@@ -917,5 +916,36 @@ button.cta5:hover {
 }
 /* -----------------------adding shop styles- tablet-------- */
 /* -------changing product image size */
+.shopimgwrapper{
+    background-image: url(..//images/Optimized/homebag_245.png);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+    min-height: 450px;
+    height: auto;
+    margin-top: -10px;
+    padding-bottom: 50px;
+}
+/* limiting form size */
+.mainformwrapper{
+    max-width: 650px;
+}
+/* styling button */
+button.cta5{
 
+        display: block;
+        width: 75%;
+        margin-right: auto;
+        font-family: roboto;
+        text-decoration: none;
+        font-size: 0.8rem;
+        text-align: center;
+        background-color: black;
+        padding: 15px 50px;
+        color: white;
+        margin-bottom: 50px;
+        margin-top: 30px;
+
+}
 }
