@@ -1,6 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+   css reset
 */
 
 html,
@@ -149,8 +150,8 @@ body {
 
 /* ---------------------STYLING MOBILE FIRST 375PX ------Home----------------------------- */
 
-/* styling header first, want fixed */
-header{
+/* styling header first, want "fixed" */
+header {
     /* position: fixed; */
     height: 85px;
     /* box-shadow: 0 4px 8px 0 black; */
@@ -355,50 +356,56 @@ p.uplift {
     min-height: 450px;
     height: auto;
     background-repeat: no-repeat;
-    /* margin-left: -2em; */
-    /* margin-right: -2em; */
 }
+
 /* setting flex for images/icons */
-.productwrap{
-    display:flex;
+.productwrap {
+    display: flex;
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 25px;
 }
-.digest{
-    display:flex;
-    flex-direction:column;
+
+.digest {
+    display: flex;
+    flex-direction: column;
     align-content: center;
     align-items: center;
-  
+
 }
-.allergen{
-    display:flex;
-    flex-direction:column;
-    align-content: center;
-    align-items: center;
-}
-.check{
-    display:flex;
-    flex-direction:column;
+
+.allergen {
+    display: flex;
+    flex-direction: column;
     align-content: center;
     align-items: center;
 }
+
+.check {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
 /* styling icon images */
-.digestimg img{
+.digestimg img {
     max-width: 100px;
     margin-bottom: -25px;
 }
-.allergenimg img{
+
+.allergenimg img {
     max-width: 100px;
     margin-bottom: -25px;
 }
-.checkimg img{
+
+.checkimg img {
     max-width: 100px;
     margin-bottom: -25px;
 }
+
 /* styling text for icon images */
 .productwrap p {
     font-size: 0.8rem;
@@ -439,20 +446,19 @@ h2.nutritional {
 }
 
 /* adding image block - smoothie */
-.imgwrapper{
-    /* margin-left: -2em;
-    margin-right: -2em; */
+.imgwrapper {
     padding-top: 15px;
 }
+
 /* adding smoothie image  */
-.aboutimg{
+.aboutimg {
     background-image: url(..//images/Optimized/Home-Mobile/homesmoothie3.jpg);
     height: 278px;
     margin: 20px;
     width: auto;
     margin-left: -2em;
     margin-right: -2em;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
 
 }
@@ -490,16 +496,17 @@ h2.about {
 }
 
 /* adding image block - trees */
-.trees{
+.trees {
     background-image: url(..//images/Optimized/Home-Mobile/home\ trees.jpg);
     height: 278px;
     margin: 20px;
     width: auto;
     margin-left: -2em;
     margin-right: -2em;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
 }
+
 /* adding gaia4good textblock */
 .textwrapper h2.forgood {
     font-size: 1.25em;
@@ -540,8 +547,6 @@ p.forgood {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    /* padding-left: 20px;
-    padding-right: 20px; */
     max-width: 1640px;
     width: 100%;
 
@@ -554,7 +559,7 @@ p.forgood {
     padding-left: 20px;
 }
 
-/* copyright */
+/* adding copyright */
 .copyright {
     color: #f4f3ee;
     font-family: roboto;
@@ -650,15 +655,17 @@ p.forgood {
     border-top: #607744 1px solid;
     border-bottom: #607744 1px solid;
 }
+
 /* flex wrapper for ingredients */
-.ingredientimgwrapper{
+.ingredientimgwrapper {
     display: flex;
     justify-content: center;
 }
+
 /* styling ingredient image */
-.ingredientimg img{
-    max-width:100%;
-    height:auto;
+.ingredientimg img {
+    max-width: 100%;
+    height: auto;
     padding-top: 25px;
 
 }
@@ -679,16 +686,17 @@ p.forgood {
 }
 
 /* styling yoga image */
-.yogaimg{
-background-image: url(..//images/Optimized/about-mobile/about\ yoga.jpg);
-height: 350px;
-margin: 20px;
-width: auto;
-margin-left: -2em;
-margin-right: -2em;
-background-position:center;
-background-repeat: no-repeat;
+.yogaimg {
+    background-image: url(..//images/Optimized/about-mobile/about\ yoga.jpg);
+    height: 350px;
+    margin: 20px;
+    width: auto;
+    margin-left: -2em;
+    margin-right: -2em;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 /* styling header and bottom call to action button */
 .gettextwrapper h2 {
     font-size: 1.25em;
@@ -718,13 +726,14 @@ a.cta4:hover {
 }
 
 /* ------------------------STYLING SHOP PAGE--------------MOBILE */
-.shopwrapper{
+.shopwrapper {
     /* display:flex; */
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 }
+
 /* adding image wrap */
-.shopimgwrapper{
+.shopimgwrapper {
     background-image: url(..//images/Optimized/homebag_208.png);
     min-height: 450px;
     background-repeat: no-repeat;
@@ -734,54 +743,61 @@ a.cta4:hover {
     height: auto;
     margin-top: -30px;
 }
-.mainformwrapper{
-     display:flex;
-     flex-direction:column;
-     /* align-items: center; */
-     margin-left: 50px;
-     margin-right:50px;
+
+.mainformwrapper {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.textformwrapper{
+
+.textformwrapper {
     text-align: left;
     padding-bottom: 10px;
 }
-.headwrapper h2{
-    display:flex;
+
+.headwrapper h2 {
+    display: flex;
     font-size: 1.25em;
     text-align: left;
     font-weight: bolder;
     padding-bottom: 10px;
 }
+
 /* styling non-form text */
-.description p{
+.description p {
     font-size: 0.8rem;
 }
-.description{
+
+.description {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 /* form styling */
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
-  input[type=email] {
+}
+
+input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
-  input[type=number] {
-    padding: 5px 5px;
-    margin-left:5px;
-    margin-bottom:5px
-  }
- /* changing radio button */
+}
 
- /* styling last cta */
- button.cta5 {
+input[type=number] {
+    padding: 5px 5px;
+    margin-left: 5px;
+    margin-bottom: 5px
+}
+
+/* styling last cta */
+button.cta5 {
     display: block;
     width: auto;
     margin-right: auto;
@@ -807,132 +823,149 @@ button.cta5:hover {
 /* fixing text spacing under bannner
  */
 @media only screen and (min-width: 768px) {
-    .textwrapper{
-       padding-right: 25px; 
+    .textwrapper {
+        padding-right: 25px;
     }
-  
 
-  /* changing product image size, moving to the left so icons can go to the right */
-  
 
-  .productimg{
-    display: block;
-    background-image: url(..//images/Optimized/home-tablet/shop271.png);
-    background-position: center;
-    min-height: 450px;
-    height: auto;
-    background-repeat: no-repeat; 
-    padding-top: 150px;
-}
-.productwrap{
-    display:flex;
-    flex-direction: column;
-}
-.productcontainer{
-    display:grid;
+    /* changing product image size, moving to the left so icons can go to the right */
 
-}
-.productimg{
-    grid-column-start: 1;
-    grid-column-end:3;
-    padding-left: 300px;
-}
-.productwrap{
-    grid-column-start: 3;
-    grid-column-end:5;
-}
-/* -----------------------Changing smoothie and tree size img to fill---------- */
-.aboutimg{
-    background-image: url(..//images/Optimized/home-tablet/homesmoothietablet.jpg);
-    height: 310px;
-    margin: 20px;
-    width: auto;
-    margin-left: -2em;
-    margin-right: -2em;
-    background-position:center;
-    background-repeat: no-repeat;
-}
-.trees{
-    background-image: url(..//images/Optimized/home-tablet/home\ trees.jpg);
-    height: 500px;
-    margin: 20px;
-    width: auto;
-    margin-left: -2em;
-    margin-right: -2em;
-    background-position:center;
-    background-repeat: no-repeat;
-}
-/* ----------------------------------adding tablet styles to about page------------------------ */
-/* moving image to left and aligning text list on the right */
-.ingredientwrapper{
-    display:grid;
-    padding-top: 25px;
-    padding-bottom: 25px;
 
-}
-.ingredientimg{
-    grid-column-start: 1;
-    grid-column-end:2;
-    grid-row: 1;
-    max-width: 400px;
-}
-.ingredienttext{
-    grid-column-start: 3;
-    grid-column-end:5;
-    grid-row: 1;
-}
-/* setting new container, moving text to the left, yoga image to the right, changing background */
-.yogawrapper{
-    display:grid;
-    background-color: white;
-    margin-left: -2em;
-    margin-right: -2em;
-    /* grid-column-gap: 50px; */
-}
-.yogatextwrapper{
-    grid-column-start: 1;
-    grid-column-end:2;
-    grid-row: 1;
-    max-width: 400px;
-    margin-left: 2em;
-    margin-right: 1em;
-}
-.yogaimgwrapper{
-    grid-column-start: 2;
-    grid-column-end:4;
-    grid-row: 1;
-    margin-right: 2em;
-    width:300px;
-    margin-left: 2em;
-}
-.yogaimg{
-    max-height:241px ;
-    width:auto;
-  
-}
-.yogawrapper{
-    display:flex;
-    justify-content: space-around;
-}
-/* -----------------------adding shop styles- tablet-------- */
-/* -------changing product image size */
-.shopimgwrapper{
-    background-image: url(..//images/Optimized/homebag_245.png);
-    min-height: 450px;
-    background-repeat: no-repeat;
-    display: block;
-    background-position: center;
-    min-height: 450px;
-    height: auto;
-    margin-top: -10px;
-    padding-bottom: 50px;
-}
-/* limiting form size */
-.mainformwrapper{
-    max-width: 650px;
-}
-/* styling button */
-button.cta5{
+    .productimg {
+        display: block;
+        background-image: url(..//images/Optimized/home-tablet/shop271.png);
+        background-position: center;
+        min-height: 450px;
+        height: auto;
+        background-repeat: no-repeat;
+        padding-top: 150px;
+    }
+
+    .productwrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productcontainer {
+        display: grid;
+
+    }
+
+    .productimg {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding-left: 300px;
+    }
+
+    .productwrap {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    /* -----------------------Changing smoothie and tree size img to fill---------- */
+    .aboutimg {
+        background-image: url(..//images/Optimized/home-tablet/homesmoothietablet.jpg);
+        height: 310px;
+        margin: 20px;
+        width: auto;
+        margin-left: -2em;
+        margin-right: -2em;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .trees {
+        background-image: url(..//images/Optimized/home-tablet/home\ trees.jpg);
+        height: 500px;
+        margin: 20px;
+        width: auto;
+        margin-left: -2em;
+        margin-right: -2em;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* ----------------------------------adding tablet styles to about page------------------------ */
+    /* moving image to left and aligning text list on the right */
+    .ingredientwrapper {
+        display: grid;
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+    }
+
+    .ingredientimg {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 1;
+        max-width: 400px;
+    }
+
+    .ingredienttext {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row: 1;
+    }
+
+    /* setting new container, moving text to the left, yoga image to the right, changing background */
+    .yogawrapper {
+        display: grid;
+        background-color: white;
+        margin-left: -2em;
+        margin-right: -2em;
+        /* grid-column-gap: 50px; */
+    }
+
+    .yogatextwrapper {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 1;
+        max-width: 400px;
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+
+    .yogaimgwrapper {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row: 1;
+        margin-right: 2em;
+        width: 300px;
+        margin-left: 2em;
+    }
+
+    .yogaimg {
+        max-height: 241px;
+        width: auto;
+
+    }
+
+    .yogawrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* -----------------------adding shop styles- tablet-------- */
+    /* -------changing product image size */
+    .shopimgwrapper {
+        background-image: url(..//images/Optimized/homebag_245.png);
+        min-height: 450px;
+        background-repeat: no-repeat;
+        display: block;
+        background-position: center;
+        min-height: 450px;
+        height: auto;
+        margin-top: -10px;
+        padding-bottom: 50px;
+    }
+
+    /* limiting form size */
+    .mainformwrapper {
+        max-width: 650px;
+    }
+
+    /* styling button */
+    button.cta5 {
 
         display: block;
         width: 75%;
@@ -947,352 +980,388 @@ button.cta5{
         margin-bottom: 50px;
         margin-top: 30px;
 
+    }
 }
-}
+
 /* --------------------DESKTOP STYLES 1280px------------------------
 -----------------Home------------------------------- */
 @media only screen and (min-width: 1280px) {
-    .homewrapper{
+    .homewrapper {
         margin-left: 4em;
         margin-right: 4em;
     }
-/* styling header */
-header{
-    /* position: fixed; */
-    height: 100px;
-    /* box-shadow: 0 4px 8px 0 black; */
-    box-sizing: border-box;
-    width: 100%;
-}
 
-/* nav bar-styles */
-.nav {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1440px;
-    box-sizing: border-box;
-    height: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    padding-top: 35px;
-}
+    /* styling header */
+    header {
+        /* position: fixed; */
+        height: 100px;
+        /* box-shadow: 0 4px 8px 0 black; */
+        box-sizing: border-box;
+        width: 100%;
+    }
 
-/* sizing header logo */
-img.header-logo {
-    max-width: 150px;
-    display: flex;
-    margin-top: -55px;
-}
-/* styling nav links */
-a.nav-link {
-    text-decoration: none;
-    font-family: roboto;
-    font-size: 1rem;
-    color: #607744;
-}
-/* styling banner image/text */
+    /* nav bar-styles */
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1440px;
+        box-sizing: border-box;
+        height: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+        padding-top: 35px;
+    }
 
-.hero-image {
-    background-image: url(..//images/Optimized/Home-Mobile/home\ bannersmall.jpg);
-    background-position: left;
-    background-size: cover;
-    min-height: 450px;
-    height: 600px;
-    background-repeat: no-repeat;
-    margin-left: -4em;
-    margin-right: -4em;
-}
+    /* sizing header logo */
+    img.header-logo {
+        max-width: 150px;
+        display: flex;
+        margin-top: -55px;
+    }
 
-/* styling text in the banner */
-h1.banner {
-    margin-top: -525px;
-    text-align: left;
-    color: white;
-    font-size: 3.052rem;
-    max-width: 375px;
-    padding-bottom: 20px;
-    max-width: 500px;
-}
+    /* styling nav links */
+    a.nav-link {
+        text-decoration: none;
+        font-family: roboto;
+        font-size: 1rem;
+        color: #607744;
+    }
 
-p.bannerp {
-    font-size: 1rem;
-    color: white;
-    padding-bottom: 25px;
-    max-width: 355px;
-}
-/* styling button in banner */
-.cta1 {
-    line-height: 100px;
-    height: 100px;
-    text-align: center;
-    cursor: pointer;
-    color: white;
-    transition: all 0.5s;
-    position: relative;
-    font-family: roboto;
-    font-size: 1rem;
-    text-decoration: none;
-    background-color: black;
-    padding: 25px 100px;
-}
-/* styling text section */
-.promotext.container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    display: block;
-    margin:0;
+    /* styling banner image/text */
 
-}
-.textwrapper{
-    margin-right: 75px;
-}
-.textwrapper h2.uplift {
-    font-size: 1.563rem;
-    text-align: right;
-    padding-top: 125px;
-    font-weight: bolder;
-}
+    .hero-image {
+        background-image: url(..//images/Optimized/Home-Mobile/home\ bannersmall.jpg);
+        background-position: left;
+        background-size: cover;
+        min-height: 450px;
+        height: 600px;
+        background-repeat: no-repeat;
+        margin-left: -4em;
+        margin-right: -4em;
+    }
 
-p.uplift {
-    text-align: right;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    font-size: 1.25rem;
-}
+    /* styling text in the banner */
+    h1.banner {
+        margin-top: -525px;
+        text-align: left;
+        color: white;
+        font-size: 3.052rem;
+        max-width: 375px;
+        padding-bottom: 20px;
+        max-width: 500px;
+    }
 
-/* setting grid for product image and icons */
-.homeproduct {
-    background-color: white;
-    margin-left: -4em;
-    margin-right: -4em;
-}
-/* changing prodcut image size */
-.productimg {
-    display: block;
-    background-image: url(..//images/Optimized/shop328.png);
-    background-position: center;
-    min-height: 450px;
-    height: auto;
-    background-repeat: no-repeat;
- 
-}
-/* setting flex for images/icons */
-.productwrap{
-    display:flex;
-    align-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-bottom: 25px;
-}
-.digest{
-    display:flex;
-    flex-direction:column;
-    align-content: center;
-    align-items: center;
-  
-}
-.allergen{
-    display:flex;
-    flex-direction:column;
-    align-content: center;
-    align-items: center;
-}
-.check{
-    display:flex;
-    flex-direction:column;
-    align-content: center;
-    align-items: center;
-}
-/* styling icon images */
-.digestimg img{
-    max-width: 150px;
-    margin-bottom: -25px;
-}
-.allergenimg img{
-    max-width: 150px;
-    margin-bottom: -25px;
-}
-.checkimg img{
-    max-width: 150px;
-    margin-bottom: -25px;
-}
-/* styling text for icon images */
-.productwrap p {
-    font-size: 1rem;
-    text-align: center;
-    padding-bottom: 25px;
-}
+    p.bannerp {
+        font-size: 1rem;
+        color: white;
+        padding-bottom: 25px;
+        max-width: 355px;
+    }
 
-.productwrap h4 {
-    text-align: center;
-    font-size: 1.25rem ;
-}
+    /* styling button in banner */
+    .cta1 {
+        line-height: 100px;
+        height: 100px;
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        transition: all 0.5s;
+        position: relative;
+        font-family: roboto;
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: black;
+        padding: 25px 100px;
+    }
 
-/* styling text block with large button */
-h2.nutritional {
-    font-size: 1.5rem;
-    margin-top: 25px;
-}
+    /* styling text section */
+    .promotext.container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        display: block;
+        margin: 0;
 
-/* styling "get your greens" button */
-.cta2 a {
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: roboto;
-    text-decoration: none;
-    font-size: 1rem;
-    text-align: center;
-    background-color: black;
-    padding: 25px 50px;
-    color: white;
-    margin-bottom: 25px;
-   
-}
-/* -----------------------CHANGING IMAGES SIZES------------------ */
-.aboutimg{
-    background-image: url(..//images/Optimized/home-tablet/homesmoothietablet.jpg);
-    height: 600px;
-    margin: 20px;
-    width: auto;
-    margin-left: -4em;
-    margin-right: -4em;
-    background-position:center;
-    background-repeat: no-repeat;
-}
-.trees{
-    background-image: url(..//images/Optimized/home-tablet/home\ trees.jpg);
-    height: 500px;
-    margin: 20px;
-    width: auto;
-    margin-left: -4em;
-    margin-right: -4em;
-    background-position:center;
-    background-repeat: no-repeat;
-}
+    }
 
-/* styling text block and cta again */
-h2.about {
-    font-size: 1.5rem;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    font-weight: bolder;
-}
+    .textwrapper {
+        margin-right: 75px;
+    }
 
-.abouttext {
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 1rem;
-}
+    .textwrapper h2.uplift {
+        font-size: 1.563rem;
+        text-align: right;
+        padding-top: 125px;
+        font-weight: bolder;
+    }
 
-.cta3 a {
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: roboto;
-    text-decoration: none;
-    font-size: 1rem;
-    text-align: center;
-    background-color: black;
-    padding: 15px 50px;
-    color: white;
-}
+    p.uplift {
+        text-align: right;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-size: 1.25rem;
+    }
 
-.cta3 a:hover {
-    opacity: 80%;
-}
-/* styling text block and header */
-.textwrapper{
-    text-align: center;
-}
-.textwrapper h2.forgood {
-    font-size: 1.5rem;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    font-weight: bolder;
-    padding-left: 100px;
-}
+    /* setting grid for product image and icons */
+    .homeproduct {
+        background-color: white;
+        margin-left: -4em;
+        margin-right: -4em;
+    }
 
-p.forgood {
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 1.25rem;
-    padding-left: 100px;
-}
-/* ------------------------------------ABOUT DESKTOP STYLES--------------- */
-/* styling header text */
-.aboutbannertext{
-    font-size: 3.052rem;
-    max-width: 500px;
-    padding-bottom: 50px;
-}
-/* styling p text */
-.pwrapper{
-    font-size: 1.25rem;
-    padding-left:25px ;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-/* padding for image block */
-.ingredientimgwrapper{
-    padding-bottom: 25px;
-}
-/* padding for list block */
-.ingredienttext{
-    margin-right: 50px;
-}
-/* styling text in block with yoga img */
-.yogawrapper h2{
-    font-size: 1.5rem;
-}
-.yogawrapper p{
-    font-size: 1.25rem;
-}
-.yogatextwrapper{
-    margin-left:-1rem;
-    max-width: 500px ;
-}
-/* padding yoga wrapper */
-.yogawrapper{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-/* changing yoga img size */
-.yogaimg{
-    height:400px;
-    width:auto;
-}
-/* styling header and cta button */
-.gettextwrapper h2{
-    font-size: 1.5rem;
-    padding-top: 25px;
-}
-a.cta4{
-    font-size: 1rem;
-}
-/* ------------------SHOP PAGE DESKTOP------------------ */
-/* changing layout */
-.shopwrapper{
-    display:grid;
-    padding-top: 50px;
-}
-.mainformwrapper{
-   grid-column:2;
-}
-.shopimgwrapper{
-    grid-column:1;
+    /* changing prodcut image size */
+    .productimg {
+        display: block;
+        background-image: url(..//images/Optimized/shop328.png);
+        background-position: center;
+        min-height: 450px;
+        height: auto;
+        background-repeat: no-repeat;
 
-}
-/*changing footer padding */
-.footer{
-    padding-left:2em;
-}
+    }
+
+    /* setting flex for images/icons */
+    .productwrap {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-bottom: 25px;
+    }
+
+    .digest {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .allergen {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .check {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    /* styling icon images */
+    .digestimg img {
+        max-width: 150px;
+        margin-bottom: -25px;
+    }
+
+    .allergenimg img {
+        max-width: 150px;
+        margin-bottom: -25px;
+    }
+
+    .checkimg img {
+        max-width: 150px;
+        margin-bottom: -25px;
+    }
+
+    /* styling text for icon images */
+    .productwrap p {
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .productwrap h4 {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    /* styling text block with large button */
+    h2.nutritional {
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+
+    /* styling "get your greens" button */
+    .cta2 a {
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: roboto;
+        text-decoration: none;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        padding: 25px 50px;
+        color: white;
+        margin-bottom: 25px;
+
+    }
+
+    /* -----------------------CHANGING IMAGES SIZES------------------ */
+    .aboutimg {
+        background-image: url(..//images/Optimized/home-tablet/homesmoothietablet.jpg);
+        height: 600px;
+        margin: 20px;
+        width: auto;
+        margin-left: -4em;
+        margin-right: -4em;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .trees {
+        background-image: url(..//images/Optimized/home-tablet/home\ trees.jpg);
+        height: 500px;
+        margin: 20px;
+        width: auto;
+        margin-left: -4em;
+        margin-right: -4em;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* styling text block and cta again */
+    h2.about {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        font-weight: bolder;
+    }
+
+    .abouttext {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 1rem;
+    }
+
+    .cta3 a {
+        display: block;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: roboto;
+        text-decoration: none;
+        font-size: 1rem;
+        text-align: center;
+        background-color: black;
+        padding: 15px 50px;
+        color: white;
+    }
+
+    .cta3 a:hover {
+        opacity: 80%;
+    }
+
+    /* styling text block and header */
+    .textwrapper {
+        text-align: center;
+    }
+
+    .textwrapper h2.forgood {
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        font-weight: bolder;
+        padding-left: 100px;
+    }
+
+    p.forgood {
+        text-align: center;
+        padding-bottom: 40px;
+        font-size: 1.25rem;
+        padding-left: 100px;
+    }
+
+    /* ------------------------------------ABOUT DESKTOP STYLES--------------- */
+    /* styling header text */
+    .aboutbannertext {
+        font-size: 3.052rem;
+        max-width: 500px;
+        padding-bottom: 50px;
+    }
+
+    /* styling p text */
+    .pwrapper {
+        font-size: 1.25rem;
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /* padding for image block */
+    .ingredientimgwrapper {
+        padding-bottom: 25px;
+    }
+
+    /* padding for list block */
+    .ingredienttext {
+        margin-right: 50px;
+    }
+
+    /* styling text in block with yoga img */
+    .yogawrapper h2 {
+        font-size: 1.5rem;
+    }
+
+    .yogawrapper p {
+        font-size: 1.25rem;
+    }
+
+    .yogatextwrapper {
+        margin-left: -1rem;
+        max-width: 500px;
+    }
+
+    /* padding yoga wrapper */
+    .yogawrapper {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /* changing yoga img size */
+    .yogaimg {
+        height: 400px;
+        width: auto;
+    }
+
+    /* styling header and cta button */
+    .gettextwrapper h2 {
+        font-size: 1.5rem;
+        padding-top: 25px;
+    }
+
+    a.cta4 {
+        font-size: 1rem;
+    }
+
+    /* ------------------SHOP PAGE DESKTOP------------------ */
+    /* changing layout */
+    .shopwrapper {
+        display: grid;
+        padding-top: 50px;
+    }
+
+    .mainformwrapper {
+        grid-column: 2;
+    }
+
+    .shopimgwrapper {
+        grid-column: 1;
+
+    }
+
+    /*changing footer padding */
+    .footer {
+        padding-left: 2em;
+    }
 }
