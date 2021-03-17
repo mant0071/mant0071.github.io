@@ -362,7 +362,10 @@ p.uplift {
 .productwrap{
     display:flex;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
 }
 .digest{
     display:flex;
@@ -780,3 +783,46 @@ input[type=text] {
 button.cta5:hover {
     opacity: 80%;
 }
+
+/* -------------------------------------------Tablet Styles 768px-------------------------------
+--------------------home------------------------------------- */
+
+/* fixing text spacing under bannner
+ */
+@media only screen and (min-width: 768px) {
+    .textwrapper{
+       padding-right: 25px; 
+    }
+  
+
+  /* changing product image size, moving to the left so icons can go to the right */
+  
+
+  .productimg{
+    display: block;
+    background-image: url(..//images/Optimized/home-tablet/shop271.png);
+    background-position: center;
+    min-height: 450px;
+    height: auto;
+    background-repeat: no-repeat; 
+    padding-top: 150px;
+}
+.productwrap{
+    display:flex;
+    flex-direction: column;
+}
+.productcontainer{
+    display:grid;
+
+}
+.productimg{
+    grid-column-start: 1;
+    grid-column-end:3;
+    padding-left: 300px;
+}
+.productwrap{
+    grid-column-start: 3;
+    grid-column-end:5;
+}
+}  
+  
