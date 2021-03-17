@@ -235,7 +235,7 @@ a.nav-link:hover {
 
 /* styling banner image/text */
 .hero-image {
-    background-image: url(..//images/Optimized/home\ banner.jpg);
+    background-image: url(..//images/Optimized/Home-Mobile/home\ bannersmall.jpg);
     background-position: left;
     background-size: cover;
     min-height: 450px;
@@ -350,12 +350,13 @@ p.uplift {
 /* styling main product photo in grid with icons*/
 .productimg {
     display: block;
-    background-image: url(..//images/Optimized/homebag_208.png);
+    background-image: url(..//images/Optimized/Home-Mobile/shop208.png);
     background-position: center;
     min-height: 450px;
     height: auto;
     background-repeat: no-repeat;
     /* margin-left: -2em; */
+    /* margin-right: -2em; */
 }
 /* setting flex for images/icons */
 .productwrap{
@@ -436,8 +437,8 @@ h2.nutritional {
 
 /* adding image block - smoothie */
 .imgwrapper{
-    margin-left: -2em;
-    margin-right: -2em;
+    /* margin-left: -2em;
+    margin-right: -2em; */
     padding-top: 15px;
 }
 /* adding smoothie image  */
@@ -449,6 +450,8 @@ h2.nutritional {
     margin-left: -2em;
     margin-right: -2em;
     background-position:center;
+    background-repeat: no-repeat;
+
 }
 
 /* adding text block with cta again */
