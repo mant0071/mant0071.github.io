@@ -1,6 +1,6 @@
-Design was created separately for this assignment, 
+Design was created from scratch for this assignment, 
 working around a product idea that is in the works, 
-ingredient list image is from actual sample. 
+*ingredient list image is from actual sample. 
 
 
 homebanner.jpg from https://burst.shopify.com/photos/search?utf8=%E2%9C%93&q=woman+smoothie&button=
