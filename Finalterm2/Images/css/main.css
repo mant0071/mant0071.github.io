@@ -1,0 +1,120 @@
+/* adding general styles first */
+
+body {
+    margin: 0;
+    font-family: Larsseit,Montserrat, arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5625;
+    color: #090c08;
+    background-color: #1b1b1b;
+    box-sizing: border-box;
+}
+/* setting grid wrapper */
+.gridwrapper{
+    margin-left:1em;
+}
+/* styling header link */
+.about-link a{
+    font-family: montserrat;
+    text-decoration: none;
+    color: #E8EDDE;
+    font-size: 0.8rem;
+}
+.about-link a:hover{
+    color: #f5cb5c;
+}
+/* styling text section */
+.headtext{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 200px;
+}
+/* styling h1 text */
+.headtext h1{
+    color: #E8EDDE;
+    font-size: 2.887rem;
+}
+/* spacing for arrow */
+.arrow{
+    padding-bottom: 4rem;
+}
+/* adding background image */
+
+.mainimg{
+    background-image: url(..//white-geometric-bridge-fog.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+/* styling get started button link */
+.cta1 a{
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: #1b1b1b;
+    font-family: montserrat;
+    font-size: 0.8rem;
+    text-decoration: none;
+    background-color: #f5cb5c;
+    padding: 25px 50px;
+}
+/* styling p section and link */
+.maintext{
+    padding-top: 4rem;
+    max-width: 70%;
+}
+.mainp{
+    color:#E8EDDE;
+    line-height: 4rem ;
+}
+.drop1{
+    color: #f5cb5c;
+}
+.drop1:hover{
+    opacity:70%;
+    color:#f5cb5c;
+}
+/* styling our work button */
+.ourwork{
+    display:grid;
+    justify-content: center;
+}
+.ourworkimg{
+    height: 200px;
+}
+/* adding animation for img */
+.ourwork img:hover {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  /* styling footer */
+ .copyright{
+     color:#E8EDDE;
+     margin-left:1em;
+     font-family: larsseit;
+     font-size: 0.8rem;
+     
+ }
+ .footersocials{
+     list-style: none;
+ }
+.footersocials a{
+    text-decoration: none;
+    color: #E8EDDE;
+    font-family: larsseit;
+    font-size: 0.8rem;
+}
