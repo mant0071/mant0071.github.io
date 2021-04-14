@@ -48,8 +48,7 @@ body {
     min-height: 450px;
     height: auto;
     background-repeat: no-repeat;
-    margin-left: -1em;
-    margin-right: -1em;
+    margin-left:-1em;
 }
 /* styling get started button link */
 .cta1 a{
@@ -107,14 +106,21 @@ body {
      margin-left:1em;
      font-family: larsseit;
      font-size: 0.8rem;
+     padding-right: 1em;
+     margin-top: 4em;
      
  }
  .footersocials{
      list-style: none;
+     margin-left:-1em;
  }
 .footersocials a{
     text-decoration: none;
     color: #E8EDDE;
     font-family: larsseit;
     font-size: 0.8rem;
+}
+.socialblock{
+    display:flex;
+    justify-content: space-between;
 }
