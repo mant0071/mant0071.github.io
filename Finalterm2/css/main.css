@@ -47,7 +47,7 @@ body {
 /* adding background image */
 
 .mainimg{
-    background-image: url(..//white-geometric-bridge-fog.jpg);
+    background-image: url(..//Images/small-white-geometric-bridge-fog.jpg);
     background-position: center;
     background-size: cover;
     min-height: 450px;
