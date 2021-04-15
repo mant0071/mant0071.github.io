@@ -183,6 +183,9 @@ body {
     font-size: 1.953rem ;
     padding-bottom: 2rem;
 }
+.selected:hover{
+    color:#E6AD0F;
+}
 p.college{
     color: #E8EDDE;
     font-style: italic;
