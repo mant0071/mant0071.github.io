@@ -345,16 +345,30 @@ p.bottomtext{
 .mainimg{
     grid-column: 3/4;
     grid-row: 1/span 4;
-    margin-right:-0.75rem;
+    margin-right:-0.8rem;
     margin-top: -8rem;
     margin-bottom: -6rem;
 }
 /* moving cta up in banner */
+.cta1 {
+    padding-bottom:  850px;
+}
 
 /* increasing p font size */
 .mainp{
     font-size: 1.25rem;
+    padding-bottom: 4rem ;
 }
+/* Moving animated button placement */
+.ourwork{
+    display: grid;
+    padding-top: 20%;
+    position: fixed;
+    margin-left: 50% ;
+}
+/* ------------------------------------
+----------------ABOUT US ------------------- */
+
 }
     
     
