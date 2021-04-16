@@ -141,6 +141,24 @@ body {
 
 /* -----------------------------------------------------
 ---------------------ABOUT---------------------- */
+/* hiding html for desktop  */
+.mainimgabout{
+    background-image: url(..//Images/small-white-geometric-bridge-fog.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin-left:-1em;
+    display:flex;
+}
+.mainimgabout{
+    display:none;
+}
+#aboutcta{
+    display: none;
+}
+/* resetting grid */
 .gridwrapperabout{
     margin-left:1em;
 }
@@ -351,7 +369,8 @@ p.bottomtext{
 }
 /* moving cta up in banner */
 .cta1 {
-    padding-bottom:  850px;
+    padding-bottom:  1100px;
+    margin-top: 2rem;
 }
 
 /* increasing p font size */
@@ -368,8 +387,49 @@ p.bottomtext{
 }
 /* ------------------------------------
 ----------------ABOUT US ------------------- */
-
+/* changing animated button placement  */
+.workaboutimg img{
+    margin-left: 40%;
+    position: fixed;
+    margin-top: -8rem;
 }
-    
-    
+/* changing p size */
+.aboutp{
+    font-size:1.25rem;
+    max-width: 500px;
+}
+/* ---------------figuring out side image----
+---------------------------------------- */
+.mainimgabout{
+    display:grid;
+}
+.gridwrapperabout{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    }
+    /*  ----------------changing grid layout------------ */
+
+.mainimgabout{
+    grid-column: 3/4;
+    grid-row: 1/span 4;
+    margin-right:-0.8rem;
+    margin-top: -8rem;
+    margin-bottom: -6rem;
+}
+/* moving cta up in banner */
+
+/* increasing p font size */
+.mainp{
+    font-size: 1.25rem;
+    padding-bottom: 4rem;
+    max-width: 40%;
+}
+/* Moving animated button placement */
+.ourwork{
+    display: grid;
+    padding-top: 20%;
+    position: fixed;
+    margin-left: 50% ;
+}
+} 
 
