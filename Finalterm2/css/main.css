@@ -374,9 +374,13 @@ p.bottomtext{
 }
 
 /* increasing p font size */
-.mainp{
+.mainp p{
     font-size: 1.25rem;
     padding-bottom: 4rem ;
+    max-width: none;
+}
+.maintext{
+    max-width: none;
 }
 /* Moving animated button placement */
 .ourwork{
@@ -416,7 +420,6 @@ p.bottomtext{
     margin-top: -8rem;
     margin-bottom: -6rem;
 }
-/* moving cta up in banner */
 
 /* increasing p font size */
 .mainp{
@@ -430,6 +433,9 @@ p.bottomtext{
     padding-top: 20%;
     position: fixed;
     margin-left: 50% ;
+}
+.abouttext{
+    max-width: none;
 }
 } 
 
