@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: Larsseit,Montserrat, arial, Helvetica, sans-serif;
+    font-family: Larsseit, Montserrat, arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5625;
@@ -10,54 +10,62 @@ body {
     background-color: #1b1b1b;
     box-sizing: border-box;
 }
+
 /* -----------------------------------------------------
 ----------------------MOBILE FIRST-------------- */
 
 /* --------------------HOME-------------------------
 ---------------------------------------------- */
 /* setting grid wrapper */
-.gridwrapperhome{
-    margin-left:1em;
+.gridwrapperhome {
+    margin-left: 1em;
 }
+
 /* styling header link */
-.about-link a{
+.about-link a {
     font-family: montserrat;
     text-decoration: none;
     color: #E8EDDE;
     font-size: 0.8rem;
 }
-.about-link a:hover{
+
+.about-link a:hover {
     color: #f5cb5c;
 }
+
 /* styling text section */
-.headtext{
+.headtext {
     padding-top: 4rem;
     padding-bottom: 4rem;
     max-width: 200px;
 }
+
 /* styling h1 text */
-.headtext h1{
+.headtext h1 {
     color: #E8EDDE;
     font-size: 2.887rem;
 }
+
 /* spacing for arrow */
-.arrow{
+.arrow {
     padding-bottom: 4rem;
 }
+
 /* adding background image */
 
-.mainimg{
+.mainimg {
     background-image: url(..//Images/small-white-geometric-bridge-fog.jpg);
     background-position: center;
     background-size: cover;
     min-height: 450px;
     height: auto;
     background-repeat: no-repeat;
-    margin-left:-1em;
-    display:flex;
+    margin-left: -1em;
+    display: flex;
 }
+
 /* styling get started button link */
-.cta1 a{
+.cta1 a {
     line-height: 100px;
     height: 100px;
     text-align: center;
@@ -70,194 +78,228 @@ body {
     padding: 25px 50px;
     border-radius: 10px;
 }
-.cta1 a:hover{
-    background-color:#E6AD0F ;
+
+.cta1 a:hover {
+    background-color: #E6AD0F;
 }
-.cta1{
+
+.cta1 {
     align-self: center;
     margin: auto;
 }
+
 /* styling p section and link */
-.maintext{
+.maintext {
     padding-top: 4rem;
     max-width: 70%;
 }
-.mainp{
-    color:#E8EDDE;
-    line-height: 3rem ;
+
+.mainp {
+    color: #E8EDDE;
+    line-height: 3rem;
 }
-.drop1{
+
+.drop1 {
     color: #f5cb5c;
 }
-.drop1:hover{
-    opacity:70%;
-    color:#f5cb5c;
+
+.drop1:hover {
+    opacity: 70%;
+    color: #f5cb5c;
 }
+
 /* styling our work button */
-.ourwork{
-    display:grid;
+.ourwork {
+    display: grid;
     justify-content: center;
 }
-.ourworkimg{
+
+.ourworkimg {
     height: 200px;
 }
+
 /* adding animation for img */
 .ourwork img:hover {
     animation: rotation 8s infinite linear;
-  }
-  
-  @keyframes rotation {
+}
+
+@keyframes rotation {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(359deg);
+        transform: rotate(359deg);
     }
-  }
-  /* styling footer */
- .copyright{
-     color:#E8EDDE;
-     margin-left:1em;
-     font-family: larsseit;
-     font-size: 0.8rem;
-     padding-right: 1em;
-     margin-top: 4.5em;
-     
- }
- .footersocials{
-     list-style: none;
-     margin-left:-1em;
- }
-.footersocials a{
+}
+
+/* styling footer */
+.copyright {
+    color: #E8EDDE;
+    margin-left: 1em;
+    font-family: larsseit;
+    font-size: 0.8rem;
+    padding-right: 1em;
+    margin-top: 4.5em;
+
+}
+
+.footersocials {
+    list-style: none;
+    margin-left: -1em;
+}
+
+.footersocials a {
     text-decoration: none;
     color: #E8EDDE;
     font-family: larsseit;
     font-size: 0.8rem;
 }
-.socialblock{
-    display:flex;
+
+.socialblock {
+    display: flex;
     justify-content: space-between;
 }
 
 /* -----------------------------------------------------
 ---------------------ABOUT---------------------- */
 /* hiding html for desktop  */
-.mainimgabout{
+.mainimgabout {
     background-image: url(..//Images/small-white-geometric-bridge-fog.jpg);
     background-position: center;
     background-size: cover;
     min-height: 450px;
     height: auto;
     background-repeat: no-repeat;
-    margin-left:-1em;
-    display:flex;
+    margin-left: -1em;
+    display: flex;
 }
-.mainimgabout{
-    display:none;
-}
-#aboutcta{
+
+.mainimgabout {
     display: none;
 }
+
+#aboutcta {
+    display: none;
+}
+
 /* resetting grid */
-.gridwrapperabout{
-    margin-left:1em;
-}
-/* styling font in paragraph*/
-.gridwrapperabout h1{
-    padding-bottom:1rem;
-}
-.abouttext{
-    padding-top: 3rem;
-    max-width: 60%;
-}
-.aboutp{
-    color:#E8EDDE;
-    line-height: 3rem ;
-    padding-bottom: 4em;
-    padding-right: 1em;
-}
-/* ------stlying button, float right, fixed, not crashing into text--- */
-.workaboutimg img{
-   display:grid;
-   margin-left: 60%;
-   position: fixed;
-}
-.workaboutimg img:hover {
-    animation: rotation 8s infinite linear;
-  }
-  
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
-/* ----------------------------OUR WORK SECTION----------------
--------------------------------------------------------- */
-/* --------------styling links------------------ */
-.gridwrapperwork{
+.gridwrapperabout {
     margin-left: 1em;
 }
 
-.selected{
+/* styling font in paragraph*/
+.gridwrapperabout h1 {
+    padding-bottom: 1rem;
+}
+
+.abouttext {
+    padding-top: 3rem;
+    max-width: 60%;
+}
+
+.aboutp {
+    color: #E8EDDE;
+    line-height: 3rem;
+    padding-bottom: 4em;
+    padding-right: 1em;
+}
+
+/* ------stlying button, float right, fixed, not crashing into text--- */
+.workaboutimg img {
+    display: grid;
+    margin-left: 60%;
+    position: fixed;
+}
+
+.workaboutimg img:hover {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* ----------------------------OUR WORK SECTION----------------
+-------------------------------------------------------- */
+/* --------------styling links------------------ */
+.gridwrapperwork {
+    margin-left: 1em;
+}
+
+.selected {
     text-decoration: none;
-    color:#f5cb5c;
-    font-size: 1.953rem ;
+    color: #f5cb5c;
+    font-size: 1.953rem;
     padding-bottom: 2rem;
 }
-.selected:hover{
-    color:#E6AD0F;
+
+.selected:hover {
+    color: #E6AD0F;
 }
-p.college{
+
+p.college {
     color: #E8EDDE;
     font-style: italic;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
 }
+
 /* adding borders */
-.college1{
+.college1 {
     border-top: 2px solid #707070;
     margin-right: 1em;
     padding-top: 2rem;
 }
-.snack1{
+
+.snack1 {
     border-top: 2px solid #707070;
     margin-right: 1em;
     padding-top: 2rem;
 }
-.geometric1{
+
+.geometric1 {
     border-top: 2px solid #707070;
     margin-right: 1em;
     padding-top: 2rem;
 }
-.greens1{
+
+.greens1 {
     border-top: 2px solid #707070;
     margin-right: 1em;
     padding-top: 2rem;
 }
-.broya1{
+
+.broya1 {
     border-top: 2px solid #707070;
     margin-right: 1em;
     padding-top: 2rem;
     border-bottom: 2px solid #707070;
 }
+
 /* -----------our services styling---------  */
-h1.services{
+h1.services {
     padding-top: 2rem;
-    color:#E8EDDE;
-    font-size:2.887rem ;
+    color: #E8EDDE;
+    font-size: 2.887rem;
     border-bottom: 2px solid #707070;
     margin-right: 1rem;
- 
+
 
 }
-div.list1{
+
+div.list1 {
     color: #E8EDDE;
     padding-top: 2rem;
 }
-div.list2{
-    color:#E8EDDE;
+
+div.list2 {
+    color: #E8EDDE;
     padding-bottom: 2rem;
     border-bottom: 2px solid #707070;
     margin-right: 1rem;
@@ -265,13 +307,14 @@ div.list2{
 }
 
 /* styling text block with max width */
-p.bottomtext{
-   padding-top:2rem ;
-   color:#E8EDDE;
-   max-width: 60%;
+p.bottomtext {
+    padding-top: 2rem;
+    color: #E8EDDE;
+    max-width: 60%;
 }
+
 /* -----styling cta button at bottom------- */
-.cta2 a{
+.cta2 a {
     line-height: 100px;
     height: 100px;
     text-align: center;
@@ -284,198 +327,227 @@ p.bottomtext{
     padding: 25px 50px;
     border-radius: 10px;
 }
-.cta2 a:hover{
-    background-color:#E6AD0F ;
+
+.cta2 a:hover {
+    background-color: #E6AD0F;
 }
-.cta2{
+
+.cta2 {
     padding-bottom: 1rem;
 }
+
 /* -----------------------styling links with modal ---------- */
-.bg-modal  {
-    width:100%;
-    height:auto;
-    background-color: rgba(0,0,0,0.7);
+.bg-modal {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    top:0;
+    top: 0;
     justify-content: center;
     align-items: center;
-    display:none;
+    display: none;
     padding-top: 25%;
     padding-bottom: 25%;
 }
+
 .modal-content {
-    width:90%;
-    height:auto;
-    background-color:white;
+    width: 90%;
+    height: auto;
+    background-color: white;
     justify-content: center;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     align-items: center;
     border-radius: 4px;
-    position:relative;
+    position: relative;
     max-width: 550px;
-    
+
 }
+
 .close {
-	position: absolute;
-	top: 0;
-	right: 10px;
-	font-size: 42px;
-	color: #333;
-	transform: rotate(45deg);
-	cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
 }
-.modal-content img{
+
+.modal-content img {
     width: 100%;
-    height:auto;
+    height: auto;
 }
+
 /*  ------------------------------------
 ----------------------------DESKTOP STYLES------------------*/
 
 /* ----------------------HOME---------------------- */
 @media only screen and (min-width: 1025px) {
-/* --------- setting navbar breakpoint to leave room on right */
-.navbar{
-    max-width:60%;
-}
-/* increasing header size */
-.headtext h1{
-    font-size: 3.815rem;
-}
-.headtext{
-    max-width:400px;
-    padding-top:8rem;
-    padding-bottom: 8rem;
-}
-/*  ----------------changing grid layout------------ */
-.gridwrapperhome{
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
-    }
-.headtext{
-    grid-column: 1/3;
-}
-.arrow{
-    grid-column: 1/3;
-}
-.maintext{
-    grid-column: 1/3;
-}
-.mainimg{
-    grid-column: 3/4;
-    grid-row: 1/span 4;
-    margin-right:-0.8rem;
-    margin-top: -8rem;
-    margin-bottom: -6rem;
-}
-/* moving cta up in banner */
-.cta1 {
-    padding-bottom:  1100px;
-    margin-top: 2rem;
-}
 
-/* increasing p font size */
-.mainp p{
-    font-size: 1.25rem;
-    padding-bottom: 4rem ;
-    max-width: none;
-}
-.maintext{
-    max-width: none;
-}
-/* Moving animated button placement */
-.ourwork{
-    display: grid;
-    padding-top: 20%;
-    position: fixed;
-    margin-left: 50% ;
-}
-/* ------------------------------------
-----------------ABOUT US ------------------- */
-/* changing animated button placement  */
-.workaboutimg img{
-    margin-left: 40%;
-    position: fixed;
-    margin-top: -8rem;
-}
-/* changing p size */
-.aboutp{
-    font-size:1.25rem;
-    max-width: 500px;
-}
-/* ---------------figuring out side image----
----------------------------------------- */
-.mainimgabout{
-    display:grid;
-}
-.gridwrapperabout{
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
+    /* --------- setting navbar breakpoint to leave room on right */
+    .navbar {
+        max-width: 60%;
     }
+
+    /* increasing header size */
+    .headtext h1 {
+        font-size: 3.815rem;
+    }
+
+    .headtext {
+        max-width: 400px;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    /*  ----------------changing grid layout------------ */
+    .gridwrapperhome {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .headtext {
+        grid-column: 1/3;
+    }
+
+    .arrow {
+        grid-column: 1/3;
+    }
+
+    .maintext {
+        grid-column: 1/3;
+    }
+
+    .mainimg {
+        grid-column: 3/4;
+        grid-row: 1/span 4;
+        margin-right: -0.8rem;
+        margin-top: -8rem;
+        margin-bottom: -6rem;
+    }
+
+    /* moving cta up in banner */
+    .cta1 {
+        padding-bottom: 1100px;
+        margin-top: 2rem;
+    }
+
+    /* increasing p font size */
+    .mainp p {
+        font-size: 1.25rem;
+        padding-bottom: 4rem;
+        max-width: none;
+    }
+
+    .maintext {
+        max-width: none;
+    }
+
+    /* Moving animated button placement */
+    .ourwork {
+        display: grid;
+        padding-top: 20%;
+        position: fixed;
+        margin-left: 50%;
+    }
+
+    /* ------------------------------------
+----------------ABOUT US ------------------- */
+    /* changing animated button placement  */
+    .workaboutimg img {
+        margin-left: 40%;
+        position: fixed;
+        margin-top: -8rem;
+    }
+
+    /* changing p size */
+    .aboutp {
+        font-size: 1.25rem;
+        max-width: 500px;
+    }
+
+    /* ---------------figuring out side image----
+---------------------------------------- */
+    .mainimgabout {
+        display: grid;
+    }
+
+    .gridwrapperabout {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
     /*  ----------------changing grid layout------------ */
 
-.mainimgabout{
-    grid-column: 3/4;
-    grid-row: 1/span 4;
-    margin-right:-0.8rem;
-    margin-top: -8rem;
-    margin-bottom: -6rem;
-}
+    .mainimgabout {
+        grid-column: 3/4;
+        grid-row: 1/span 4;
+        margin-right: -0.8rem;
+        margin-top: -8rem;
+        margin-bottom: -6rem;
+    }
 
-/* increasing p font size */
-.mainp{
-    font-size: 1.25rem;
-    padding-bottom: 4rem;
-    max-width: 40%;
-}
-/* Moving animated button placement */
-.ourwork{
-    display: grid;
-    padding-top: 20%;
-    position: fixed;
-    margin-left: 50% ;
-}
-.abouttext{
-    max-width: none;
-}
-/* fixing nav */
-.newaboutnav #nav{
-    max-width: none;
-    margin-right: 1rem;
-}
-/* changing list spacing of items */
-.college1{
-    display:flex;
-    justify-content: space-between;
-    align-items:baseline ;
-}
-.snack1{
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.geometric1{
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.greens1{
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.broya1{
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-/* changing our setvices spacing  */
-h1.services{
-    padding-top: 4rem;
-    padding-bottom: 4rem; 
-}
-/* -------------moving half services to the right -------
- */
-}
+    /* increasing p font size */
+    .mainp {
+        font-size: 1.25rem;
+        padding-bottom: 4rem;
+        max-width: 40%;
+    }
 
- 
+    /* Moving animated button placement */
+    .ourwork {
+        display: grid;
+        padding-top: 20%;
+        position: fixed;
+        margin-left: 50%;
+    }
+
+    .abouttext {
+        max-width: none;
+    }
+
+    /* fixing nav */
+    .newaboutnav #nav {
+        max-width: none;
+        margin-right: 1rem;
+    }
+
+    /* changing list spacing of items */
+    .college1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .snack1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .geometric1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .greens1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .broya1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    /* changing our setvices spacing  */
+    h1.services {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+}
