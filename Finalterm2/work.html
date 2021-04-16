@@ -11,6 +11,7 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <!-- own css stylesheet -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- js -->
     <title>Geometric Creative - Work</title>
 </head>
 
@@ -41,16 +42,16 @@
                 <div class="workwrapper">
                     <div class="college">
                         <div class="college1">
-                            <a class="selected" href="">
+                                <a class="selected" href="#" id="getlink5">
                                 Blueline Taxi</a>
-                            <p class="college">
+                                <p class="college">
                                 UX/UI DESIGN
                             </p>
                         </div>
                     </div>
                     <div class="snack">
                         <div class="snack1">
-                            <a class="selected" href="">
+                            <a class="selected" href="#" id="getlink4">
                                 Snack Conscious</a>
                             <p class="college">
                                 ECOMMERCE DESIGN
@@ -59,7 +60,7 @@
                     </div>
                     <div class="geometric">
                         <div class="geometric1">
-                            <a class="selected" href="">
+                            <a class="selected" href="#" id="getlink3">
                                 Getgeometric</a>
                             <p class="college">
                                 WEB DESIGN
@@ -68,7 +69,7 @@
                     </div>
                     <div class="greens">
                         <div class="greens1">
-                            <a class="selected" href="">
+                            <a class="selected" href="#" id="getlink2">
                                 Gaia Greens</a>
                             <p class="college">
                                 PRODUCT DESIGN
@@ -77,7 +78,7 @@
                     </div>
                     <div class="broya">
                         <div class="broya1">
-                            <a class="selected" href="">
+                            <a href="#" class="selected" id="getlink">
                                 Broya</a>
                             <p class="college">
                                 MARKETING CAMPAIGNS
@@ -119,7 +120,94 @@
 
                 </div>
         </section>
+        <!-- modal secttion----   Broya---------------------
+        ------------------------------------------ -->
+        <div class="bg-modal">
+           <div class="modal-content">
+            <div class="close">+</div>
+               <img src="..//Finalterm2/Images/Portfolio pics/Screen Shot 2021-03-13 at 7.45.13 PM.png" alt="">
+           </div>
+        </div>
+        <script>
+          document.getElementById('getlink').addEventListener("click", function() {
+	     document.querySelector('.bg-modal').style.display = "flex";
+        });
+
+        document.querySelector('.close').addEventListener("click", function() {
+	    document.querySelector('.bg-modal').style.display = "none";
+        });
+        </script>
+    <!-- modal secttion----Gaia Greeens  #more specifity--------------------
+        ------------------------------------------ -->
+        <div class="bg-modal" id="Gaia">
+            <div class="modal-content">
+             <div class="close" id="Closegaia">+</div>
+                <img src="..//Finalterm2/Images/Portfolio pics/mobile1.png" alt="">
+            </div>
+         </div>
+         <script>
+           document.getElementById('getlink2').addEventListener("click", function() {
+          document.querySelector('#Gaia').style.display = "flex";
+         });
+ 
+         document.querySelector('#Closegaia').addEventListener("click", function() {
+         document.querySelector('#Gaia').style.display = "none";
+         });
+         </script>
+          <!-- modal secttion----Geometric --------------------
+        ------------------------------------------ -->
+        <div class="bg-modal" id="Geometric">
+            <div class="modal-content">
+             <div class="close" id="Closegeometric">+</div>
+                <img src="..//Finalterm2/Images/Portfolio pics/geoscreenshot.png" alt="">
+            </div>
+         </div>
+         <script>
+           document.getElementById('getlink3').addEventListener("click", function() {
+          document.querySelector('#Geometric').style.display = "flex";
+         });
+ 
+         document.querySelector('#Closegeometric').addEventListener("click", function() {
+         document.querySelector('#Geometric').style.display = "none";
+         });
+         </script>
+           <!-- modal secttion----snack --------------------
+        ------------------------------------------ -->
+        <div class="bg-modal" id="Snack">
+            <div class="modal-content">
+             <div class="close" id="Closesnack">+</div>
+                <img src="..//Finalterm2/Images/Portfolio pics/snackscreen.png" alt="">
+            </div>
+         </div>
+         <script>
+           document.getElementById('getlink4').addEventListener("click", function() {
+          document.querySelector('#Snack').style.display = "flex";
+         });
+ 
+         document.querySelector('#Closesnack').addEventListener("click", function() {
+         document.querySelector('#Snack').style.display = "none";
+         });
+         </script>
+
+         <!-- modal secttion----Blueline--------------------
+        ------------------------------------------ -->
+        <div class="bg-modal" id="Blue">
+            <div class="modal-content">
+             <div class="close" id="Closeblue">+</div>
+                <img src="..//Finalterm2/Images/Portfolio pics/blueline.jpg" alt="">
+            </div>
+         </div>
+         <script>
+           document.getElementById('getlink5').addEventListener("click", function() {
+          document.querySelector('#Blue').style.display = "flex";
+         });
+ 
+         document.querySelector('#Closeblue').addEventListener("click", function() {
+         document.querySelector('#Blue').style.display = "none";
+         });
+         </script>
     </main>
+
     <!-- adding footer with social links -->
     <footer class="footer">
         <div class="footer-block">
