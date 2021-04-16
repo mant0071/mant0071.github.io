@@ -200,6 +200,7 @@ body {
 .gridwrapperwork{
     margin-left: 1em;
 }
+
 .selected{
     text-decoration: none;
     color:#f5cb5c;
@@ -437,5 +438,44 @@ p.bottomtext{
 .abouttext{
     max-width: none;
 }
-} 
+/* fixing nav */
+.newaboutnav #nav{
+    max-width: none;
+    margin-right: 1rem;
+}
+/* changing list spacing of items */
+.college1{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline ;
+}
+.snack1{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.geometric1{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.greens1{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.broya1{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+/* changing our setvices spacing  */
+h1.services{
+    padding-top: 4rem;
+    padding-bottom: 4rem; 
+}
+/* -------------moving half services to the right -------
+ */
+}
 
+ 
